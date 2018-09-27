@@ -1,0 +1,87 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# D_LL4007
+#
+DEF D_LL4007 D 0 0 N N 1 F N
+F0 "D" -150 100 59 H V C CNN
+F1 "D_LL4007" 150 100 50 H V C CNN
+F2 "disc:D_MELF" 650 -50 50 H I C CNN
+F3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" 2200 -250 50 H I C CNN
+F4 "-" 0 -100 60 H I C CNN "ventcode"
+F5 "-" 750 150 60 H I C CNN "Nominalas"
+F6 "0.01" 1100 -150 60 H I C CNN "Kaina"
+F7 "melf" 500 150 60 H I C CNN "Korpusas"
+F8 "2.3" 1400 -150 60 H I C CNN "Aukstis"
+F9 "LL4007" 950 50 60 H I C CNN "Marke"
+F10 "Diodas" 550 50 60 H I C CNN "Pavadinimas"
+F11 "LL4007" 1150 150 59 H I C CNN "Gamintojo Kodas"
+F12 "-" 650 150 60 H I C CNN "Nuoroda"
+F13 "SMD" 1100 -50 60 H I C CNN "Korpuso tipas"
+F14 "700V/1A" 1450 50 60 H I C CNN "Parametras"
+F15 "-" 850 150 60 H I C CNN "Komentaras"
+$FPLIST
+ D*MiniMELF*
+ MiniMELF*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_BTW67
+#
+DEF Q_BTW67 D 0 0 Y N 1 F N
+F0 "D" 75 25 50 H V L CNN
+F1 "Q_BTW67" 75 -50 50 H V L CNN
+F2 "disc:RD91" 450 50 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "-" 175 125 60 H I C CNN "ventcode"
+DRAW
+P 2 0 1 0 -50 -100 -25 -50 N
+P 2 0 1 8 -50 -50 50 -50 N
+P 2 0 1 0 0 -100 0 100 N
+P 4 0 1 8 -50 50 50 50 0 -50 -50 50 N
+X A 1 0 150 100 D 50 50 1 1 P
+X G 2 -150 -100 100 R 50 50 1 1 I
+X K 3 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_330R_1206_1%
+#
+DEF R_330R_1206_1% R 0 40 N N 1 F N
+F0 "R" -100 100 60 H V C CNN
+F1 "R_330R_1206_1%" 400 100 60 H V C CNN
+F2 "resistors:R_1206" 1200 50 60 H I C CNN
+F3 "" -1600 500 60 H I C CNN
+F4 "-" 0 -100 60 H I C CNN "ventcode"
+F5 "330R" 950 150 59 H I C CNN "Nominalas"
+F6 "0.001" 1150 -150 60 H I C CNN "Kaina"
+F7 "1206" 1200 -50 60 H I C CNN "Korpusas"
+F8 "1" 900 -150 60 H I C CNN "Aukstis"
+F9 "-" 850 -250 60 H I C CNN "Marke"
+F10 "Rezistorius" 1050 250 60 H I C CNN "Pavadinimas"
+F11 "-" 950 -250 60 H I C CNN "Gamintojo Kodas"
+F12 "-" 1050 -250 60 H I C CNN "Nuoroda"
+F13 "SMD" 900 -50 60 H I C CNN "Korpuso tipas"
+F14 "-" 1150 -250 60 H I C CNN "Parametras"
+F15 "-" 1250 -250 60 H I C CNN "Komentaras"
+$FPLIST
+ R_0805
+$ENDFPLIST
+DRAW
+P 2 1 1 4 -45 -40 -15 40 N
+P 2 1 1 4 75 -40 90 0 N
+P 3 1 1 4 -90 0 -75 40 -45 -40 N
+P 4 1 1 4 -15 40 15 -40 45 40 75 -40 N
+X ~ 1 -150 0 59 R 50 50 1 1 P
+X ~ 2 150 0 59 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
