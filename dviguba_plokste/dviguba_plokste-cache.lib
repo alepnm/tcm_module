@@ -1,11 +1,47 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# D_LL4007
+# Connector:Screw_Terminal_01x01
 #
-DEF D_LL4007 D 0 0 N N 1 F N
+DEF Connector:Screw_Terminal_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector:Screw_Terminal_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 0 25 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic:Conn_01x01
+#
+DEF Connector_Generic:Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic:Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# disc:D_LL4007
+#
+DEF disc:D_LL4007 D 0 0 N N 1 F N
 F0 "D" -150 100 59 H V C CNN
-F1 "D_LL4007" 150 100 50 H V C CNN
+F1 "disc:D_LL4007" 150 100 50 H V C CNN
 F2 "disc:D_MELF" 650 -50 50 H I C CNN
 F3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" 2200 -250 50 H I C CNN
 F4 "-" 0 -100 60 H I C CNN "ventcode"
@@ -33,36 +69,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Faston_6.3x08x14
+# disc:MOC3060S
 #
-DEF ~Faston_6.3x08x14 X 0 1 N N 1 F N
-F0 "X" -250 0 50 H V C CNN
-F1 "Faston_6.3x08x14" 1000 50 50 H I C CNN
-F2 "mech:Faston_6.3x0.8x14" 650 0 50 H I C CNN
-F3 "" 1400 -400 50 H I C CNN
-F4 "ZAJ023" -250 -100 60 H I C CNN "ventcode"
-F5 "-" 250 -100 60 H I C CNN "Nominalas"
-F6 "0" 1150 -100 60 H I C CNN "Kaina"
-F7 "-" 350 -100 60 H I C CNN "Korpusas"
-F8 "10" 1000 -100 60 H I C CNN "Aukstis"
-F9 "-" 450 -100 60 H I C CNN "Marke"
-F10 "Kontaktas" 400 50 60 H I C CNN "Pavadinimas"
-F11 "-" 550 -100 60 H I C CNN "Gamintojo Kodas"
-F12 "-" 650 -100 60 H I C CNN "Nuoroda"
-F13 "DIP" 1300 -100 60 H I C CNN "Korpuso tipas"
-F14 "-" 750 -100 60 H I C CNN "Parametras"
-F15 "-" 850 -100 60 H I C CNN "Komentaras"
-DRAW
-S -100 50 -400 -45 0 1 0 N
-X ~ 1 0 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MOC3060S
-#
-DEF ~MOC3060S U 0 40 Y N 1 F N
+DEF ~disc:MOC3060S U 0 40 Y N 1 F N
 F0 "U" -200 200 50 H V L CNN
-F1 "MOC3060S" 1650 150 50 H I L CNN
+F1 "disc:MOC3060S" 1650 150 50 H I L CNN
 F2 "disc:DIP-6_W9.53mm_SMD" 850 50 50 H I L CIN
 F3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" 850 -50 50 H I L CNN
 F4 "-" 0 -400 60 H I C CNN "ventcode"
@@ -111,11 +122,11 @@ X ~ 6 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Q_BTW67
+# disc:Q_BTW67
 #
-DEF Q_BTW67 D 0 0 Y N 1 F N
+DEF disc:Q_BTW67 D 0 0 Y N 1 F N
 F0 "D" 75 25 50 H V L CNN
-F1 "Q_BTW67" 75 -50 50 H V L CNN
+F1 "disc:Q_BTW67" 75 -50 50 H V L CNN
 F2 "disc:RD91" 450 50 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
 F4 "-" 175 125 60 H I C CNN "ventcode"
@@ -130,40 +141,36 @@ X K 3 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_0R22_2W_5%
+# mech:Faston_6.3x08x14
 #
-DEF ~R_0R22_2W_5% R 0 40 N N 1 F N
-F0 "R" 0 100 60 H V C CNN
-F1 "R_0R22_2W_5%" 1500 150 60 H I C CNN
-F2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" 2050 50 60 H I C CNN
-F3 "" -1600 500 60 H I C CNN
-F4 "ZELR065" 0 -200 60 H I C CNN "ventcode"
-F5 "0R22/2W" 0 -100 60 H V C CNN "Nominalas"
-F6 "0.01" 1350 -50 60 H I C CNN "Kaina"
-F7 "0411" 1350 -150 60 H I C CNN "Korpusas"
-F8 "1" 950 -50 60 H I C CNN "Aukstis"
-F9 "-" 1750 -150 60 H I C CNN "Marke"
-F10 "Rezistorius" 800 150 60 H I C CNN "Pavadinimas"
-F11 "-" 600 -50 60 H I C CNN "Gamintojo Kodas"
-F12 "-" 600 -100 60 H I C CNN "Nuoroda"
-F13 "DIP" 1750 -50 60 H I C CNN "Korpuso tipas"
-F14 "-" 600 -150 60 H I C CNN "Parametras"
-F15 "-" 600 -200 60 H I C CNN "Komentaras"
+DEF ~mech:Faston_6.3x08x14 X 0 1 N N 1 F N
+F0 "X" -250 0 50 H V C CNN
+F1 "mech:Faston_6.3x08x14" 1000 50 50 H I C CNN
+F2 "mech:Faston_6.3x0.8x14" 650 0 50 H I C CNN
+F3 "" 1400 -400 50 H I C CNN
+F4 "ZAJ023" -250 -100 60 H I C CNN "ventcode"
+F5 "-" 250 -100 60 H I C CNN "Nominalas"
+F6 "0" 1150 -100 60 H I C CNN "Kaina"
+F7 "-" 350 -100 60 H I C CNN "Korpusas"
+F8 "10" 1000 -100 60 H I C CNN "Aukstis"
+F9 "-" 450 -100 60 H I C CNN "Marke"
+F10 "Kontaktas" 400 50 60 H I C CNN "Pavadinimas"
+F11 "-" 550 -100 60 H I C CNN "Gamintojo Kodas"
+F12 "-" 650 -100 60 H I C CNN "Nuoroda"
+F13 "DIP" 1300 -100 60 H I C CNN "Korpuso tipas"
+F14 "-" 750 -100 60 H I C CNN "Parametras"
+F15 "-" 850 -100 60 H I C CNN "Komentaras"
 DRAW
-P 2 1 1 4 -45 -40 -15 40 N
-P 2 1 1 4 75 -40 90 0 N
-P 3 1 1 4 -90 0 -75 40 -45 -40 N
-P 4 1 1 4 -15 40 15 -40 45 40 75 -40 N
-X ~ 1 -150 0 59 R 50 50 1 1 P
-X ~ 2 150 0 59 L 50 50 1 1 P
+S -100 50 -400 -45 0 1 0 N
+X ~ 1 0 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_1k_1206_1%
+# resistors_us:R_1k_1206_1%
 #
-DEF R_1k_1206_1% R 0 40 N N 1 F N
+DEF resistors_us:R_1k_1206_1% R 0 40 N N 1 F N
 F0 "R" 0 100 60 H V C CNN
-F1 "R_1k_1206_1%" 50 -100 60 H V C CNN
+F1 "resistors_us:R_1k_1206_1%" 50 -100 60 H V C CNN
 F2 "resistors:R_1206" 950 0 60 H I C CNN
 F3 "" -1600 500 60 H I C CNN
 F4 "-" 0 -200 60 H I C CNN "ventcode"
@@ -189,15 +196,15 @@ X ~ 2 150 0 59 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_330R_1206_1%
+# resistors_us:R_470R_1206_1%
 #
-DEF R_330R_1206_1% R 0 40 N N 1 F N
+DEF resistors_us:R_470R_1206_1% R 0 40 N N 1 F N
 F0 "R" -100 100 60 H V C CNN
-F1 "R_330R_1206_1%" 400 100 60 H V C CNN
+F1 "resistors_us:R_470R_1206_1%" 400 100 60 H V C CNN
 F2 "resistors:R_1206" 1200 50 60 H I C CNN
 F3 "" -1600 500 60 H I C CNN
 F4 "-" 0 -100 60 H I C CNN "ventcode"
-F5 "330R" 950 150 59 H I C CNN "Nominalas"
+F5 "470R" 950 150 59 H I C CNN "Nominalas"
 F6 "0.001" 1150 -150 60 H I C CNN "Kaina"
 F7 "1206" 1200 -50 60 H I C CNN "Korpusas"
 F8 "1" 900 -150 60 H I C CNN "Aukstis"
@@ -218,25 +225,6 @@ P 3 1 1 4 -90 0 -75 40 -45 -40 N
 P 4 1 1 4 -15 40 15 -40 45 40 75 -40 N
 X ~ 1 -150 0 59 R 50 50 1 1 P
 X ~ 2 150 0 59 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# TRIAC
-#
-DEF TRIAC D 0 0 Y N 1 F N
-F0 "D" 125 25 50 H V L CNN
-F1 "TRIAC" 125 -50 50 H V L CNN
-F2 "" 75 25 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-DRAW
-P 2 0 1 8 -100 -50 100 -50 N
-P 2 0 1 8 -100 50 100 50 N
-P 2 0 1 0 -50 -100 -25 -50 N
-P 3 0 1 8 -100 50 -50 -50 0 50 N
-P 3 0 1 8 0 -50 50 50 100 -50 N
-X A1 ~ 0 150 100 D 50 50 1 1 P
-X A2 ~ 0 -150 100 U 50 50 1 1 P
-X G ~ -150 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
