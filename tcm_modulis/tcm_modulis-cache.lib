@@ -1,0 +1,140 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# D_LL4007
+#
+DEF D_LL4007 D 0 0 N N 1 F N
+F0 "D" -150 100 59 H V C CNN
+F1 "D_LL4007" 150 100 50 H V C CNN
+F2 "disc:D_MELF" 650 -50 50 H I C CNN
+F3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" 2200 -250 50 H I C CNN
+F4 "-" 0 -100 60 H I C CNN "ventcode"
+F5 "-" 750 150 60 H I C CNN "Nominalas"
+F6 "0.01" 1100 -150 60 H I C CNN "Kaina"
+F7 "melf" 500 150 60 H I C CNN "Korpusas"
+F8 "2.3" 1400 -150 60 H I C CNN "Aukstis"
+F9 "LL4007" 950 50 60 H I C CNN "Marke"
+F10 "Diodas" 550 50 60 H I C CNN "Pavadinimas"
+F11 "LL4007" 1150 150 59 H I C CNN "Gamintojo Kodas"
+F12 "-" 650 150 60 H I C CNN "Nuoroda"
+F13 "SMD" 1100 -50 60 H I C CNN "Korpuso tipas"
+F14 "700V/1A" 1450 50 60 H I C CNN "Parametras"
+F15 "-" 850 150 60 H I C CNN "Komentaras"
+$FPLIST
+ D*MiniMELF*
+ MiniMELF*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Faston_6.3x08x14
+#
+DEF ~Faston_6.3x08x14 X 0 1 N N 1 F N
+F0 "X" -250 0 50 H V C CNN
+F1 "Faston_6.3x08x14" 1000 50 50 H I C CNN
+F2 "mech:Faston_6.3x0.8x14" 650 0 50 H I C CNN
+F3 "" 1400 -400 50 H I C CNN
+F4 "ZAJ023" -250 -100 60 H I C CNN "ventcode"
+F5 "-" 250 -100 60 H I C CNN "Nominalas"
+F6 "0" 1150 -100 60 H I C CNN "Kaina"
+F7 "-" 350 -100 60 H I C CNN "Korpusas"
+F8 "10" 1000 -100 60 H I C CNN "Aukstis"
+F9 "-" 450 -100 60 H I C CNN "Marke"
+F10 "Kontaktas" 400 50 60 H I C CNN "Pavadinimas"
+F11 "-" 550 -100 60 H I C CNN "Gamintojo Kodas"
+F12 "-" 650 -100 60 H I C CNN "Nuoroda"
+F13 "DIP" 1300 -100 60 H I C CNN "Korpuso tipas"
+F14 "-" 750 -100 60 H I C CNN "Parametras"
+F15 "-" 850 -100 60 H I C CNN "Komentaras"
+DRAW
+S -100 50 -400 -45 0 1 0 N
+X ~ 1 0 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_Thyristor_AGK
+#
+DEF Q_Thyristor_AGK D 0 0 Y N 1 F N
+F0 "D" 75 25 50 H V L CNN
+F1 "Q_Thyristor_AGK" 75 -50 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+P 2 0 1 0 -50 -100 -25 -50 N
+P 2 0 1 8 -50 -50 50 -50 N
+P 2 0 1 0 0 -100 0 100 N
+P 4 0 1 8 -50 50 50 50 0 -50 -50 50 N
+X A 1 0 150 100 D 50 50 1 1 P
+X G 2 -150 -100 100 R 50 50 1 1 I
+X K 3 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_0R22_2W_5%
+#
+DEF ~R_0R22_2W_5% R 0 40 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "R_0R22_2W_5%" 1500 150 60 H I C CNN
+F2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" 2050 50 60 H I C CNN
+F3 "" -1600 500 60 H I C CNN
+F4 "ZELR065" 0 -200 60 H I C CNN "ventcode"
+F5 "0R22/2W" 0 -100 60 H V C CNN "Nominalas"
+F6 "0.01" 1350 -50 60 H I C CNN "Kaina"
+F7 "0411" 1350 -150 60 H I C CNN "Korpusas"
+F8 "1" 950 -50 60 H I C CNN "Aukstis"
+F9 "-" 1750 -150 60 H I C CNN "Marke"
+F10 "Rezistorius" 800 150 60 H I C CNN "Pavadinimas"
+F11 "-" 600 -50 60 H I C CNN "Gamintojo Kodas"
+F12 "-" 600 -100 60 H I C CNN "Nuoroda"
+F13 "DIP" 1750 -50 60 H I C CNN "Korpuso tipas"
+F14 "-" 600 -150 60 H I C CNN "Parametras"
+F15 "-" 600 -200 60 H I C CNN "Komentaras"
+DRAW
+P 2 1 1 4 -45 -40 -15 40 N
+P 2 1 1 4 75 -40 90 0 N
+P 3 1 1 4 -90 0 -75 40 -45 -40 N
+P 4 1 1 4 -15 40 15 -40 45 40 75 -40 N
+X ~ 1 -150 0 59 R 50 50 1 1 P
+X ~ 2 150 0 59 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_330R_1206_1%
+#
+DEF R_330R_1206_1% R 0 40 N N 1 F N
+F0 "R" -100 100 60 H V C CNN
+F1 "R_330R_1206_1%" 400 100 60 H V C CNN
+F2 "resistors:R_1206" 1200 50 60 H I C CNN
+F3 "" -1600 500 60 H I C CNN
+F4 "-" 0 -100 60 H I C CNN "ventcode"
+F5 "330R" 950 150 59 H I C CNN "Nominalas"
+F6 "0.001" 1150 -150 60 H I C CNN "Kaina"
+F7 "1206" 1200 -50 60 H I C CNN "Korpusas"
+F8 "1" 900 -150 60 H I C CNN "Aukstis"
+F9 "-" 850 -250 60 H I C CNN "Marke"
+F10 "Rezistorius" 1050 250 60 H I C CNN "Pavadinimas"
+F11 "-" 950 -250 60 H I C CNN "Gamintojo Kodas"
+F12 "-" 1050 -250 60 H I C CNN "Nuoroda"
+F13 "SMD" 900 -50 60 H I C CNN "Korpuso tipas"
+F14 "-" 1150 -250 60 H I C CNN "Parametras"
+F15 "-" 1250 -250 60 H I C CNN "Komentaras"
+$FPLIST
+ R_0805
+$ENDFPLIST
+DRAW
+P 2 1 1 4 -45 -40 -15 40 N
+P 2 1 1 4 75 -40 90 0 N
+P 3 1 1 4 -90 0 -75 40 -45 -40 N
+P 4 1 1 4 -15 40 15 -40 45 40 75 -40 N
+X ~ 1 -150 0 59 R 50 50 1 1 P
+X ~ 2 150 0 59 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
