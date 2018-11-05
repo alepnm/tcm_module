@@ -1,4 +1,4 @@
-update=10/18/2018 10:59:33 AM
+update=11/5/2018 3:26:08 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=gamyba/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
