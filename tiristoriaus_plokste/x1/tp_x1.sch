@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:tiristoriaus_plokste-cache
 EELAYER 26 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -17,307 +16,307 @@ $EndDescr
 $Comp
 L disc:Q_BTW67 D1
 U 1 1 5BAC9D95
-P 2900 1600
-F 0 "D1" H 2975 1625 50  0000 L CNN
-F 1 "BTW67" H 2975 1550 50  0000 L CNN
-F 2 "disc:RD91" H 3350 1650 50  0001 C CNN
-F 3 "" V 2900 1600 50  0001 C CNN
-F 4 "-" H 3075 1725 60  0001 C CNN "ventcode"
-	1    2900 1600
+P -2250 1600
+F 0 "D1" H -2175 1625 50  0000 L CNN
+F 1 "BTW67" H -2175 1550 50  0000 L CNN
+F 2 "disc:RD91" H -1800 1650 50  0001 C CNN
+F 3 "" V -2250 1600 50  0001 C CNN
+F 4 "-" H -2075 1725 60  0001 C CNN "ventcode"
+	1    -2250 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L disc:D_LL4007 D2
 U 1 1 5BAC9F8D
-P 2500 2000
-F 0 "D2" V 2400 2150 59  0000 C CNN
-F 1 "LL4007" V 2500 2250 50  0000 C CNN
-F 2 "disc:D_MELF" H 3150 1950 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 4700 1750 50  0001 C CNN
-F 4 "-" H 2500 1900 60  0001 C CNN "ventcode"
-F 5 "-" H 3250 2150 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 3600 1850 60  0001 C CNN "Kaina"
-F 7 "melf" H 3000 2150 60  0001 C CNN "Korpusas"
-F 8 "2.3" H 3900 1850 60  0001 C CNN "Aukstis"
-F 9 "LL4007" H 3450 2050 60  0001 C CNN "Marke"
-F 10 "Diodas" H 3050 2050 60  0001 C CNN "Pavadinimas"
-F 11 "LL4007" H 3650 2150 59  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3150 2150 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 3600 1950 60  0001 C CNN "Korpuso tipas"
-F 14 "700V/1A" H 3950 2050 60  0001 C CNN "Parametras"
-F 15 "-" H 3350 2150 60  0001 C CNN "Komentaras"
-	1    2500 2000
+P -2650 2000
+F 0 "D2" V -2750 2150 59  0000 C CNN
+F 1 "LL4007" V -2650 2250 50  0000 C CNN
+F 2 "disc:D_MELF" H -2000 1950 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H -450 1750 50  0001 C CNN
+F 4 "-" H -2650 1900 60  0001 C CNN "ventcode"
+F 5 "-" H -1900 2150 60  0001 C CNN "Nominalas"
+F 6 "0.01" H -1550 1850 60  0001 C CNN "Kaina"
+F 7 "melf" H -2150 2150 60  0001 C CNN "Korpusas"
+F 8 "2.3" H -1250 1850 60  0001 C CNN "Aukstis"
+F 9 "LL4007" H -1700 2050 60  0001 C CNN "Marke"
+F 10 "Diodas" H -2100 2050 60  0001 C CNN "Pavadinimas"
+F 11 "LL4007" H -1500 2150 59  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -2000 2150 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H -1550 1950 60  0001 C CNN "Korpuso tipas"
+F 14 "700V/1A" H -1200 2050 60  0001 C CNN "Parametras"
+F 15 "-" H -1800 2150 60  0001 C CNN "Komentaras"
+	1    -2650 2000
 	0    1    1    0   
 $EndComp
-Text Label 1200 1700 0    60   ~ 0
+Text Label -3950 1700 0    60   ~ 0
 CTRL
-Text Label 3650 2250 2    60   ~ 0
+Text Label -1500 2250 2    60   ~ 0
 C
-Text Label 3650 1250 2    60   ~ 0
+Text Label -1500 1250 2    60   ~ 0
 A
 $Comp
 L resistors_us:R_1k_1206_1% R2
 U 1 1 5BB5D6B6
-P 2350 2000
-F 0 "R2" V 2400 2150 60  0000 C CNN
-F 1 "1k" V 2300 2150 60  0000 C CNN
-F 2 "resistors:R_1206" H 3300 2000 60  0001 C CNN
-F 3 "" H 750 2500 60  0001 C CNN
-F 4 "-" H 2350 1800 60  0001 C CNN "ventcode"
-F 5 "1k" H 3800 2200 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 3550 1900 60  0001 C CNN "Kaina"
-F 7 "1206" H 3250 1900 60  0001 C CNN "Korpusas"
-F 8 "1" H 3500 1800 60  0001 C CNN "Aukstis"
-F 9 "-" H 3200 1800 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 3250 2200 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3550 2200 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3650 2200 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 3000 1900 60  0001 C CNN "Korpuso tipas"
-	1    2350 2000
+P -2800 2000
+F 0 "R2" V -2750 2150 60  0000 C CNN
+F 1 "1k" V -2850 2150 60  0000 C CNN
+F 2 "resistors:R_1206" H -1850 2000 60  0001 C CNN
+F 3 "" H -4400 2500 60  0001 C CNN
+F 4 "-" H -2800 1800 60  0001 C CNN "ventcode"
+F 5 "1k" H -1350 2200 60  0001 C CNN "Nominalas"
+F 6 "0.001" H -1600 1900 60  0001 C CNN "Kaina"
+F 7 "1206" H -1900 1900 60  0001 C CNN "Korpusas"
+F 8 "1" H -1650 1800 60  0001 C CNN "Aukstis"
+F 9 "-" H -1950 1800 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H -1900 2200 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -1600 2200 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -1500 2200 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H -2150 1900 60  0001 C CNN "Korpuso tipas"
+	1    -2800 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L mech:Faston_6.3x08x14 X1
 U 1 1 5BB5DC16
-P 3250 1350
-F 0 "X1" H 3000 1350 50  0000 C CNN
-F 1 "A" H 2800 1350 50  0000 C CNN
-F 2 "mech:Faston_6.3x0.8x14" H 3900 1350 50  0001 C CNN
-F 3 "" H 4650 950 50  0001 C CNN
-F 4 "ZAJ023" H 3000 1250 60  0001 C CNN "ventcode"
-F 5 "-" H 3500 1250 60  0001 C CNN "Nominalas"
-F 6 "0" H 4400 1250 60  0001 C CNN "Kaina"
-F 7 "-" H 3600 1250 60  0001 C CNN "Korpusas"
-F 8 "10" H 4250 1250 60  0001 C CNN "Aukstis"
-F 9 "-" H 3700 1250 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 3650 1400 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3800 1250 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3900 1250 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4550 1250 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4000 1250 60  0001 C CNN "Parametras"
-F 15 "-" H 4100 1250 60  0001 C CNN "Komentaras"
-	1    3250 1350
+P -1900 1350
+F 0 "X1" H -2150 1350 50  0000 C CNN
+F 1 "A" H -2350 1350 50  0000 C CNN
+F 2 "mech:Faston_6.3x0.8x14" H -1250 1350 50  0001 C CNN
+F 3 "" H -500 950 50  0001 C CNN
+F 4 "ZAJ023" H -2150 1250 60  0001 C CNN "ventcode"
+F 5 "-" H -1650 1250 60  0001 C CNN "Nominalas"
+F 6 "0" H -750 1250 60  0001 C CNN "Kaina"
+F 7 "-" H -1550 1250 60  0001 C CNN "Korpusas"
+F 8 "10" H -900 1250 60  0001 C CNN "Aukstis"
+F 9 "-" H -1450 1250 60  0001 C CNN "Marke"
+F 10 "Kontaktas" H -1500 1400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -1350 1250 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -1250 1250 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H -600 1250 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H -1150 1250 60  0001 C CNN "Parametras"
+F 15 "-" H -1050 1250 60  0001 C CNN "Komentaras"
+	1    -1900 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L mech:Faston_6.3x08x14 X3
 U 1 1 5BB5DD7E
-P 3250 1850
-F 0 "X3" H 3000 1850 50  0000 C CNN
-F 1 "K" H 2800 1850 50  0000 C CNN
-F 2 "mech:Faston_6.3x0.8x14" H 3900 1850 50  0001 C CNN
-F 3 "" H 4650 1450 50  0001 C CNN
-F 4 "ZAJ023" H 3000 1750 60  0001 C CNN "ventcode"
-F 5 "-" H 3500 1750 60  0001 C CNN "Nominalas"
-F 6 "0" H 4400 1750 60  0001 C CNN "Kaina"
-F 7 "-" H 3600 1750 60  0001 C CNN "Korpusas"
-F 8 "10" H 4250 1750 60  0001 C CNN "Aukstis"
-F 9 "-" H 3700 1750 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 3650 1900 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3800 1750 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3900 1750 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4550 1750 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4000 1750 60  0001 C CNN "Parametras"
-F 15 "-" H 4100 1750 60  0001 C CNN "Komentaras"
-	1    3250 1850
+P -1900 1850
+F 0 "X3" H -2150 1850 50  0000 C CNN
+F 1 "K" H -2350 1850 50  0000 C CNN
+F 2 "mech:Faston_6.3x0.8x14" H -1250 1850 50  0001 C CNN
+F 3 "" H -500 1450 50  0001 C CNN
+F 4 "ZAJ023" H -2150 1750 60  0001 C CNN "ventcode"
+F 5 "-" H -1650 1750 60  0001 C CNN "Nominalas"
+F 6 "0" H -750 1750 60  0001 C CNN "Kaina"
+F 7 "-" H -1550 1750 60  0001 C CNN "Korpusas"
+F 8 "10" H -900 1750 60  0001 C CNN "Aukstis"
+F 9 "-" H -1450 1750 60  0001 C CNN "Marke"
+F 10 "Kontaktas" H -1500 1900 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -1350 1750 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -1250 1750 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H -600 1750 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H -1150 1750 60  0001 C CNN "Parametras"
+F 15 "-" H -1050 1750 60  0001 C CNN "Komentaras"
+	1    -1900 1850
 	-1   0    0    1   
 $EndComp
 $Comp
 L mech:Faston_6.3x08x14 X2
 U 1 1 5BB5DE38
-P 1600 1850
-F 0 "X2" H 1350 1850 50  0000 C CNN
-F 1 "Faston_6.3x08x14" H 2600 1900 50  0001 C CNN
-F 2 "mech:Faston_6.3x0.8x14" H 2250 1850 50  0001 C CNN
-F 3 "" H 3000 1450 50  0001 C CNN
-F 4 "ZAJ023" H 1350 1750 60  0001 C CNN "ventcode"
-F 5 "-" H 1850 1750 60  0001 C CNN "Nominalas"
-F 6 "0" H 2750 1750 60  0001 C CNN "Kaina"
-F 7 "-" H 1950 1750 60  0001 C CNN "Korpusas"
-F 8 "10" H 2600 1750 60  0001 C CNN "Aukstis"
-F 9 "-" H 2050 1750 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 2000 1900 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 2150 1750 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 2250 1750 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 2900 1750 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 2350 1750 60  0001 C CNN "Parametras"
-F 15 "-" H 2450 1750 60  0001 C CNN "Komentaras"
-	1    1600 1850
+P -3550 1850
+F 0 "X2" H -3800 1850 50  0000 C CNN
+F 1 "Faston_6.3x08x14" H -2550 1900 50  0001 C CNN
+F 2 "mech:Faston_6.3x0.8x14" H -2900 1850 50  0001 C CNN
+F 3 "" H -2150 1450 50  0001 C CNN
+F 4 "ZAJ023" H -3800 1750 60  0001 C CNN "ventcode"
+F 5 "-" H -3300 1750 60  0001 C CNN "Nominalas"
+F 6 "0" H -2400 1750 60  0001 C CNN "Kaina"
+F 7 "-" H -3200 1750 60  0001 C CNN "Korpusas"
+F 8 "10" H -2550 1750 60  0001 C CNN "Aukstis"
+F 9 "-" H -3100 1750 60  0001 C CNN "Marke"
+F 10 "Kontaktas" H -3150 1900 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -3000 1750 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -2900 1750 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H -2250 1750 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H -2800 1750 60  0001 C CNN "Parametras"
+F 15 "-" H -2700 1750 60  0001 C CNN "Komentaras"
+	1    -3550 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L disc:MOC3060S U2
 U 1 1 5BBA00A9
-P 8150 8550
-F 0 "U2" H 7950 8750 50  0001 L CNN
-F 1 "MOC3060S" H 7950 8750 50  0000 L CNN
-F 2 "disc:DIP-6_W9.53mm_SMD" H 9000 8600 50  0001 L CIN
-F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 9000 8500 50  0001 L CNN
-F 4 "-" H 8150 8150 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 9350 8700 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 9800 8400 60  0001 C CNN "Kaina"
-F 7 "SMD" H 9450 8400 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 8350 8750 47  0001 C CNN "Gamintojo kodas"
-	1    8150 8550
+P 17750 13500
+F 0 "U2" H 17550 13700 50  0001 L CNN
+F 1 "MOC3060S" H 17550 13700 50  0000 L CNN
+F 2 "disc:DIP-6_W9.53mm_SMD" H 18600 13550 50  0001 L CIN
+F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 18600 13450 50  0001 L CNN
+F 4 "-" H 17750 13100 60  0001 C CNN "ventcode"
+F 5 "Optosimistorius" H 18950 13650 60  0001 C CNN "Pavadinimas"
+F 6 "0" H 19400 13350 60  0001 C CNN "Kaina"
+F 7 "SMD" H 19050 13350 60  0001 C CNN "Korpuso tipas"
+F 8 "MOC3060S" H 17950 13700 47  0001 C CNN "Gamintojo kodas"
+	1    17750 13500
 	1    0    0    -1  
 $EndComp
 $Comp
 L various:TRIAC D13
 U 1 1 5BBA00AA
-P 10400 8350
-F 0 "D13" H 10525 8375 50  0001 L CNN
-F 1 "TRIAC 3" H 10550 8350 50  0000 L CNN
-F 2 "" V 10475 8375 50  0001 C CNN
-F 3 "" V 10400 8350 50  0001 C CNN
-	1    10400 8350
+P 20000 13300
+F 0 "D13" H 20125 13325 50  0001 L CNN
+F 1 "TRIAC 3" H 20150 13300 50  0000 L CNN
+F 2 "" V 20075 13325 50  0001 C CNN
+F 3 "" V 20000 13300 50  0001 C CNN
+	1    20000 13300
 	1    0    0    -1  
 $EndComp
 $Comp
 L various:TRIAC D14
 U 1 1 5BBA00AB
-P 11850 8850
-F 0 "D14" H 11975 8875 50  0001 L CNN
-F 1 "TRIAC 4" H 12000 8850 50  0000 L CNN
-F 2 "" V 11925 8875 50  0001 C CNN
-F 3 "" V 11850 8850 50  0001 C CNN
-	1    11850 8850
+P 21450 13800
+F 0 "D14" H 21575 13825 50  0001 L CNN
+F 1 "TRIAC 4" H 21600 13800 50  0000 L CNN
+F 2 "" V 21525 13825 50  0001 C CNN
+F 3 "" V 21450 13800 50  0001 C CNN
+	1    21450 13800
 	1    0    0    1   
 $EndComp
 $Comp
 L resistors_us:R_0R22_2W_5% R20
 U 1 1 5BBA00AC
-P 10400 9000
-F 0 "R20" H 10400 9100 60  0001 C CNN
-F 1 "LOAD2.1" V 10400 8800 39  0000 C CNN
-F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 12450 9050 60  0001 C CNN
-F 3 "" H 8800 9500 60  0001 C CNN
-F 4 "ZELR065" H 10400 8800 60  0001 C CNN "ventcode"
-F 5 "0R22/2W" H 10400 8900 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 11750 8950 60  0001 C CNN "Kaina"
-F 7 "0411" H 11750 8850 60  0001 C CNN "Korpusas"
-F 8 "1" H 11350 8950 60  0001 C CNN "Aukstis"
-F 9 "-" H 12150 8850 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 11200 9150 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 11000 8950 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 11000 8900 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 12150 8950 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 11000 8850 60  0001 C CNN "Parametras"
-F 15 "-" H 11000 8800 60  0001 C CNN "Komentaras"
-	1    10400 9000
+P 20000 13950
+F 0 "R20" H 20000 14050 60  0001 C CNN
+F 1 "LOAD2.1" V 20000 13750 39  0000 C CNN
+F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 22050 14000 60  0001 C CNN
+F 3 "" H 18400 14450 60  0001 C CNN
+F 4 "ZELR065" H 20000 13750 60  0001 C CNN "ventcode"
+F 5 "0R22/2W" H 20000 13850 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 21350 13900 60  0001 C CNN "Kaina"
+F 7 "0411" H 21350 13800 60  0001 C CNN "Korpusas"
+F 8 "1" H 20950 13900 60  0001 C CNN "Aukstis"
+F 9 "-" H 21750 13800 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 20800 14100 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 20600 13900 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 20600 13850 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H 21750 13900 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 20600 13800 60  0001 C CNN "Parametras"
+F 15 "-" H 20600 13750 60  0001 C CNN "Komentaras"
+	1    20000 13950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_0R22_2W_5% R18
 U 1 1 5BBA00AD
-P 11850 8200
-F 0 "R18" H 11850 8300 60  0001 C CNN
-F 1 "LOAD2.2" V 11850 8000 39  0000 C CNN
-F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 13900 8250 60  0001 C CNN
-F 3 "" H 10250 8700 60  0001 C CNN
-F 4 "ZELR065" H 11850 8000 60  0001 C CNN "ventcode"
-F 5 "0R22/2W" H 11850 8100 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 13200 8150 60  0001 C CNN "Kaina"
-F 7 "0411" H 13200 8050 60  0001 C CNN "Korpusas"
-F 8 "1" H 12800 8150 60  0001 C CNN "Aukstis"
-F 9 "-" H 13600 8050 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 12650 8350 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 12450 8150 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 12450 8100 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 13600 8150 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 12450 8050 60  0001 C CNN "Parametras"
-F 15 "-" H 12450 8000 60  0001 C CNN "Komentaras"
-	1    11850 8200
+P 21450 13150
+F 0 "R18" H 21450 13250 60  0001 C CNN
+F 1 "LOAD2.2" V 21450 12950 39  0000 C CNN
+F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 23500 13200 60  0001 C CNN
+F 3 "" H 19850 13650 60  0001 C CNN
+F 4 "ZELR065" H 21450 12950 60  0001 C CNN "ventcode"
+F 5 "0R22/2W" H 21450 13050 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 22800 13100 60  0001 C CNN "Kaina"
+F 7 "0411" H 22800 13000 60  0001 C CNN "Korpusas"
+F 8 "1" H 22400 13100 60  0001 C CNN "Aukstis"
+F 9 "-" H 23200 13000 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 22250 13300 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 22050 13100 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 22050 13050 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H 23200 13100 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 22050 13000 60  0001 C CNN "Parametras"
+F 15 "-" H 22050 12950 60  0001 C CNN "Komentaras"
+	1    21450 13150
 	0    -1   -1   0   
 $EndComp
-Text Label 12500 7950 2    60   ~ 0
+Text Label 22100 12900 2    60   ~ 0
 PH1
 $Comp
 L disc:MOC3060S U1
 U 1 1 5BBA00AE
-P 8150 7050
-F 0 "U1" H 7950 7250 50  0001 L CNN
-F 1 "MOC3060S" H 7950 7250 50  0000 L CNN
-F 2 "disc:DIP-6_W9.53mm_SMD" H 9000 7100 50  0001 L CIN
-F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 9000 7000 50  0001 L CNN
-F 4 "-" H 8150 6650 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 9350 7200 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 9800 6900 60  0001 C CNN "Kaina"
-F 7 "SMD" H 9450 6900 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 8350 7250 47  0001 C CNN "Gamintojo kodas"
-	1    8150 7050
+P 17750 12000
+F 0 "U1" H 17550 12200 50  0001 L CNN
+F 1 "MOC3060S" H 17550 12200 50  0000 L CNN
+F 2 "disc:DIP-6_W9.53mm_SMD" H 18600 12050 50  0001 L CIN
+F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 18600 11950 50  0001 L CNN
+F 4 "-" H 17750 11600 60  0001 C CNN "ventcode"
+F 5 "Optosimistorius" H 18950 12150 60  0001 C CNN "Pavadinimas"
+F 6 "0" H 19400 11850 60  0001 C CNN "Kaina"
+F 7 "SMD" H 19050 11850 60  0001 C CNN "Korpuso tipas"
+F 8 "MOC3060S" H 17950 12200 47  0001 C CNN "Gamintojo kodas"
+	1    17750 12000
 	1    0    0    -1  
 $EndComp
 $Comp
 L various:TRIAC D3
 U 1 1 5BBA00AF
-P 10400 6850
-F 0 "D3" H 10525 6875 50  0001 L CNN
-F 1 "TRIAC 1" H 10550 6850 50  0000 L CNN
-F 2 "" V 10475 6875 50  0001 C CNN
-F 3 "" V 10400 6850 50  0001 C CNN
-	1    10400 6850
+P 20000 11800
+F 0 "D3" H 20125 11825 50  0001 L CNN
+F 1 "TRIAC 1" H 20150 11800 50  0000 L CNN
+F 2 "" V 20075 11825 50  0001 C CNN
+F 3 "" V 20000 11800 50  0001 C CNN
+	1    20000 11800
 	1    0    0    -1  
 $EndComp
 $Comp
 L various:TRIAC D8
 U 1 1 5BBA00B0
-P 11850 7350
-F 0 "D8" H 11975 7375 50  0001 L CNN
-F 1 "TRIAC 2" H 12000 7350 50  0000 L CNN
-F 2 "" V 11925 7375 50  0001 C CNN
-F 3 "" V 11850 7350 50  0001 C CNN
-	1    11850 7350
+P 21450 12300
+F 0 "D8" H 21575 12325 50  0001 L CNN
+F 1 "TRIAC 2" H 21600 12300 50  0000 L CNN
+F 2 "" V 21525 12325 50  0001 C CNN
+F 3 "" V 21450 12300 50  0001 C CNN
+	1    21450 12300
 	1    0    0    1   
 $EndComp
 $Comp
 L resistors_us:R_0R22_2W_5% R13
 U 1 1 5BBA00B1
-P 10400 7500
-F 0 "R13" H 10400 7600 60  0001 C CNN
-F 1 "LOAD1.1" V 10400 7300 39  0000 C CNN
-F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 12450 7550 60  0001 C CNN
-F 3 "" H 8800 8000 60  0001 C CNN
-F 4 "ZELR065" H 10400 7300 60  0001 C CNN "ventcode"
-F 5 "0R22/2W" H 10400 7400 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 11750 7450 60  0001 C CNN "Kaina"
-F 7 "0411" H 11750 7350 60  0001 C CNN "Korpusas"
-F 8 "1" H 11350 7450 60  0001 C CNN "Aukstis"
-F 9 "-" H 12150 7350 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 11200 7650 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 11000 7450 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 11000 7400 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 12150 7450 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 11000 7350 60  0001 C CNN "Parametras"
-F 15 "-" H 11000 7300 60  0001 C CNN "Komentaras"
-	1    10400 7500
+P 20000 12450
+F 0 "R13" H 20000 12550 60  0001 C CNN
+F 1 "LOAD1.1" V 20000 12250 39  0000 C CNN
+F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 22050 12500 60  0001 C CNN
+F 3 "" H 18400 12950 60  0001 C CNN
+F 4 "ZELR065" H 20000 12250 60  0001 C CNN "ventcode"
+F 5 "0R22/2W" H 20000 12350 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 21350 12400 60  0001 C CNN "Kaina"
+F 7 "0411" H 21350 12300 60  0001 C CNN "Korpusas"
+F 8 "1" H 20950 12400 60  0001 C CNN "Aukstis"
+F 9 "-" H 21750 12300 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 20800 12600 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 20600 12400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 20600 12350 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H 21750 12400 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 20600 12300 60  0001 C CNN "Parametras"
+F 15 "-" H 20600 12250 60  0001 C CNN "Komentaras"
+	1    20000 12450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_0R22_2W_5% R3
 U 1 1 5BBA00B2
-P 11850 6600
-F 0 "R3" H 11850 6700 60  0001 C CNN
-F 1 "LOAD1.2" V 11850 6400 39  0000 C CNN
-F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 13900 6650 60  0001 C CNN
-F 3 "" H 10250 7100 60  0001 C CNN
-F 4 "ZELR065" H 11850 6400 60  0001 C CNN "ventcode"
-F 5 "0R22/2W" H 11850 6500 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 13200 6550 60  0001 C CNN "Kaina"
-F 7 "0411" H 13200 6450 60  0001 C CNN "Korpusas"
-F 8 "1" H 12800 6550 60  0001 C CNN "Aukstis"
-F 9 "-" H 13600 6450 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 12650 6750 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 12450 6550 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 12450 6500 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 13600 6550 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 12450 6450 60  0001 C CNN "Parametras"
-F 15 "-" H 12450 6400 60  0001 C CNN "Komentaras"
-	1    11850 6600
+P 21450 11550
+F 0 "R3" H 21450 11650 60  0001 C CNN
+F 1 "LOAD1.2" V 21450 11350 39  0000 C CNN
+F 2 "resistors:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 23500 11600 60  0001 C CNN
+F 3 "" H 19850 12050 60  0001 C CNN
+F 4 "ZELR065" H 21450 11350 60  0001 C CNN "ventcode"
+F 5 "0R22/2W" H 21450 11450 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 22800 11500 60  0001 C CNN "Kaina"
+F 7 "0411" H 22800 11400 60  0001 C CNN "Korpusas"
+F 8 "1" H 22400 11500 60  0001 C CNN "Aukstis"
+F 9 "-" H 23200 11400 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 22250 11700 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 22050 11500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 22050 11450 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H 23200 11500 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 22050 11400 60  0001 C CNN "Parametras"
+F 15 "-" H 22050 11350 60  0001 C CNN "Komentaras"
+	1    21450 11550
 	0    -1   -1   0   
 $EndComp
-Text Label 12500 7750 2    60   ~ 0
+Text Label 22100 12700 2    60   ~ 0
 PH2
-Text Notes 7850 6400 0    79   ~ 0
+Text Notes 17450 11350 0    79   ~ 0
 EKR
 $Comp
 L various:TRIAC D4
@@ -440,24 +439,24 @@ OK2.2
 $Comp
 L mech:Faston_6.3x08x14 X4
 U 1 1 5BB7232D
-P 1600 2250
-F 0 "X4" H 1350 2250 50  0000 C CNN
-F 1 "Faston_6.3x08x14" H 2600 2300 50  0001 C CNN
-F 2 "mech:Faston_6.3x0.8x14" H 2250 2250 50  0001 C CNN
-F 3 "" H 3000 1850 50  0001 C CNN
-F 4 "ZAJ023" H 1350 2150 60  0001 C CNN "ventcode"
-F 5 "-" H 1850 2150 60  0001 C CNN "Nominalas"
-F 6 "0" H 2750 2150 60  0001 C CNN "Kaina"
-F 7 "-" H 1950 2150 60  0001 C CNN "Korpusas"
-F 8 "10" H 2600 2150 60  0001 C CNN "Aukstis"
-F 9 "-" H 2050 2150 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 2000 2300 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 2150 2150 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 2250 2150 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 2900 2150 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 2350 2150 60  0001 C CNN "Parametras"
-F 15 "-" H 2450 2150 60  0001 C CNN "Komentaras"
-	1    1600 2250
+P -3550 2250
+F 0 "X4" H -3800 2250 50  0000 C CNN
+F 1 "Faston_6.3x08x14" H -2550 2300 50  0001 C CNN
+F 2 "mech:Faston_6.3x0.8x14" H -2900 2250 50  0001 C CNN
+F 3 "" H -2150 1850 50  0001 C CNN
+F 4 "ZAJ023" H -3800 2150 60  0001 C CNN "ventcode"
+F 5 "-" H -3300 2150 60  0001 C CNN "Nominalas"
+F 6 "0" H -2400 2150 60  0001 C CNN "Kaina"
+F 7 "-" H -3200 2150 60  0001 C CNN "Korpusas"
+F 8 "10" H -2550 2150 60  0001 C CNN "Aukstis"
+F 9 "-" H -3100 2150 60  0001 C CNN "Marke"
+F 10 "Kontaktas" H -3150 2300 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -3000 2150 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -2900 2150 60  0001 C CNN "Nuoroda"
+F 13 "DIP" H -2250 2150 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H -2800 2150 60  0001 C CNN "Parametras"
+F 15 "-" H -2700 2150 60  0001 C CNN "Komentaras"
+	1    -3550 2250
 	1    0    0    -1  
 $EndComp
 Text Label 10450 11900 3    60   ~ 0
@@ -535,24 +534,24 @@ $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R1
 U 1 1 5BB742AC
-P 2100 1700
-F 0 "R1" H 2000 1800 60  0000 C CNN
-F 1 "470R" H 2200 1800 60  0000 C CNN
-F 2 "resistors:R_1206" H 3300 1750 60  0001 C CNN
-F 3 "" H 500 2200 60  0001 C CNN
-F 4 "-" H 2100 1600 60  0001 C CNN "ventcode"
-F 5 "470R" H 3050 1850 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 3250 1550 60  0001 C CNN "Kaina"
-F 7 "1206" H 3300 1650 60  0001 C CNN "Korpusas"
-F 8 "1" H 3000 1550 60  0001 C CNN "Aukstis"
-F 9 "-" H 2950 1450 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 3150 1950 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3050 1450 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3150 1450 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 3000 1650 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 3250 1450 60  0001 C CNN "Parametras"
-F 15 "-" H 3350 1450 60  0001 C CNN "Komentaras"
-	1    2100 1700
+P -3050 1700
+F 0 "R1" H -3150 1800 60  0000 C CNN
+F 1 "470R" H -2950 1800 60  0000 C CNN
+F 2 "resistors:R_1206" H -1850 1750 60  0001 C CNN
+F 3 "" H -4650 2200 60  0001 C CNN
+F 4 "-" H -3050 1600 60  0001 C CNN "ventcode"
+F 5 "470R" H -2100 1850 59  0001 C CNN "Nominalas"
+F 6 "0.001" H -1900 1550 60  0001 C CNN "Kaina"
+F 7 "1206" H -1850 1650 60  0001 C CNN "Korpusas"
+F 8 "1" H -2150 1550 60  0001 C CNN "Aukstis"
+F 9 "-" H -2200 1450 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H -2000 1950 60  0001 C CNN "Pavadinimas"
+F 11 "-" H -2100 1450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H -2000 1450 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H -2150 1650 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H -1900 1450 60  0001 C CNN "Parametras"
+F 15 "-" H -1800 1450 60  0001 C CNN "Komentaras"
+	1    -3050 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -624,728 +623,728 @@ $EndComp
 $Comp
 L disc:Q_BTW67 D1
 U 1 1 5BBB29F0
-P 4400 6950
-F 0 "D1" H 4250 7050 50  0000 L CNN
-F 1 "BTW67" H 4050 7000 50  0001 L CNN
-F 2 "" H 4850 7000 50  0001 C CNN
-F 3 "" V 4400 6950 50  0001 C CNN
-F 4 "-" H 4575 7075 60  0001 C CNN "ventcode"
-	1    4400 6950
+P 5900 2650
+F 0 "D1" H 5750 2750 50  0000 L CNN
+F 1 "BTW67" H 5550 2700 50  0001 L CNN
+F 2 "" H 6350 2700 50  0001 C CNN
+F 3 "" V 5900 2650 50  0001 C CNN
+F 4 "-" H 6075 2775 60  0001 C CNN "ventcode"
+	1    5900 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L disc:Q_BTW67 D1
 U 1 1 5BBB29F7
-P 5250 6950
-F 0 "D1" H 5050 7000 50  0000 L CNN
-F 1 "BTW67" H 4900 7000 50  0001 L CNN
-F 2 "" H 5700 7000 50  0001 C CNN
-F 3 "" V 5250 6950 50  0001 C CNN
-F 4 "-" H 5425 7075 60  0001 C CNN "ventcode"
-	1    5250 6950
+P 6750 2650
+F 0 "D1" H 6550 2700 50  0000 L CNN
+F 1 "BTW67" H 6400 2700 50  0001 L CNN
+F 2 "" H 7200 2700 50  0001 C CNN
+F 3 "" V 6750 2650 50  0001 C CNN
+F 4 "-" H 6925 2775 60  0001 C CNN "ventcode"
+	1    6750 2650
 	-1   0    0    1   
 $EndComp
-Text Label 6500 6350 2    60   ~ 0
+Text Label 8000 2050 2    60   ~ 0
 LOAD1
-Text Label 6500 7750 2    60   ~ 0
+Text Label 8000 3450 2    60   ~ 0
 FAZE1
-Text Label 2650 7050 2    60   ~ 0
+Text Label 4150 2750 2    60   ~ 0
 X7
-Text Label 2650 7250 2    60   ~ 0
+Text Label 4150 2950 2    60   ~ 0
 X9
 $Comp
 L disc:D_LL4007 D?
 U 1 1 5BBB36EE
-P 5450 6600
-F 0 "D?" V 5350 6750 59  0001 C CNN
-F 1 "LL4007" H 5450 6700 50  0000 C CNN
-F 2 "" H 6100 6550 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 7650 6350 50  0001 C CNN
-F 4 "-" H 5450 6500 60  0001 C CNN "ventcode"
-F 5 "-" H 6200 6750 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 6550 6450 60  0001 C CNN "Kaina"
-F 7 "melf" H 5950 6750 60  0001 C CNN "Korpusas"
-F 8 "2.3" H 6850 6450 60  0001 C CNN "Aukstis"
-F 9 "LL4007" H 6400 6650 60  0001 C CNN "Marke"
-F 10 "Diodas" H 6000 6650 60  0001 C CNN "Pavadinimas"
-F 11 "LL4007" H 6600 6750 59  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 6100 6750 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6550 6550 60  0001 C CNN "Korpuso tipas"
-F 14 "700V/1A" H 6900 6650 60  0001 C CNN "Parametras"
-F 15 "-" H 6300 6750 60  0001 C CNN "Komentaras"
-	1    5450 6600
+P 6950 2300
+F 0 "D?" V 6850 2450 59  0001 C CNN
+F 1 "LL4007" H 6950 2400 50  0000 C CNN
+F 2 "" H 7600 2250 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 9150 2050 50  0001 C CNN
+F 4 "-" H 6950 2200 60  0001 C CNN "ventcode"
+F 5 "-" H 7700 2450 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 8050 2150 60  0001 C CNN "Kaina"
+F 7 "melf" H 7450 2450 60  0001 C CNN "Korpusas"
+F 8 "2.3" H 8350 2150 60  0001 C CNN "Aukstis"
+F 9 "LL4007" H 7900 2350 60  0001 C CNN "Marke"
+F 10 "Diodas" H 7500 2350 60  0001 C CNN "Pavadinimas"
+F 11 "LL4007" H 8100 2450 59  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 7600 2450 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8050 2250 60  0001 C CNN "Korpuso tipas"
+F 14 "700V/1A" H 8400 2350 60  0001 C CNN "Parametras"
+F 15 "-" H 7800 2450 60  0001 C CNN "Komentaras"
+	1    6950 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBB38E5
-P 5700 6600
-F 0 "R?" V 5750 6450 60  0001 C CNN
-F 1 "1k" V 5700 6500 60  0000 C CNN
-F 2 "" H 6650 6600 60  0001 C CNN
-F 3 "" H 4100 7100 60  0001 C CNN
-F 4 "-" H 5700 6400 60  0001 C CNN "ventcode"
-F 5 "1k" H 7150 6800 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 6900 6500 60  0001 C CNN "Kaina"
-F 7 "1206" H 6600 6500 60  0001 C CNN "Korpusas"
-F 8 "1" H 6850 6400 60  0001 C CNN "Aukstis"
-F 9 "-" H 6550 6400 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 6600 6800 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 6900 6800 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 7000 6800 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6350 6500 60  0001 C CNN "Korpuso tipas"
-	1    5700 6600
+P 7200 2300
+F 0 "R?" V 7250 2150 60  0001 C CNN
+F 1 "1k" V 7200 2200 60  0000 C CNN
+F 2 "" H 8150 2300 60  0001 C CNN
+F 3 "" H 5600 2800 60  0001 C CNN
+F 4 "-" H 7200 2100 60  0001 C CNN "ventcode"
+F 5 "1k" H 8650 2500 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 8400 2200 60  0001 C CNN "Kaina"
+F 7 "1206" H 8100 2200 60  0001 C CNN "Korpusas"
+F 8 "1" H 8350 2100 60  0001 C CNN "Aukstis"
+F 9 "-" H 8050 2100 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8100 2500 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8400 2500 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8500 2500 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 7850 2200 60  0001 C CNN "Korpuso tipas"
+	1    7200 2300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L disc:D_LL4007 D?
 U 1 1 5BBB50CA
-P 4200 7450
-F 0 "D?" V 4100 7600 59  0001 C CNN
-F 1 "LL4007" H 4200 7350 50  0000 C CNN
-F 2 "" H 4850 7400 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 6400 7200 50  0001 C CNN
-F 4 "-" H 4200 7350 60  0001 C CNN "ventcode"
-F 5 "-" H 4950 7600 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 5300 7300 60  0001 C CNN "Kaina"
-F 7 "melf" H 4700 7600 60  0001 C CNN "Korpusas"
-F 8 "2.3" H 5600 7300 60  0001 C CNN "Aukstis"
-F 9 "LL4007" H 5150 7500 60  0001 C CNN "Marke"
-F 10 "Diodas" H 4750 7500 60  0001 C CNN "Pavadinimas"
-F 11 "LL4007" H 5350 7600 59  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4850 7600 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 5300 7400 60  0001 C CNN "Korpuso tipas"
-F 14 "700V/1A" H 5650 7500 60  0001 C CNN "Parametras"
-F 15 "-" H 5050 7600 60  0001 C CNN "Komentaras"
-	1    4200 7450
+P 5700 3150
+F 0 "D?" V 5600 3300 59  0001 C CNN
+F 1 "LL4007" H 5700 3050 50  0000 C CNN
+F 2 "" H 6350 3100 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 7900 2900 50  0001 C CNN
+F 4 "-" H 5700 3050 60  0001 C CNN "ventcode"
+F 5 "-" H 6450 3300 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 6800 3000 60  0001 C CNN "Kaina"
+F 7 "melf" H 6200 3300 60  0001 C CNN "Korpusas"
+F 8 "2.3" H 7100 3000 60  0001 C CNN "Aukstis"
+F 9 "LL4007" H 6650 3200 60  0001 C CNN "Marke"
+F 10 "Diodas" H 6250 3200 60  0001 C CNN "Pavadinimas"
+F 11 "LL4007" H 6850 3300 59  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6350 3300 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6800 3100 60  0001 C CNN "Korpuso tipas"
+F 14 "700V/1A" H 7150 3200 60  0001 C CNN "Parametras"
+F 15 "-" H 6550 3300 60  0001 C CNN "Komentaras"
+	1    5700 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBB50DA
-P 3950 7450
-F 0 "R?" V 4000 7300 60  0001 C CNN
-F 1 "1k" V 3950 7350 60  0000 C CNN
-F 2 "" H 4900 7450 60  0001 C CNN
-F 3 "" H 2350 7950 60  0001 C CNN
-F 4 "-" H 3950 7250 60  0001 C CNN "ventcode"
-F 5 "1k" H 5400 7650 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 5150 7350 60  0001 C CNN "Kaina"
-F 7 "1206" H 4850 7350 60  0001 C CNN "Korpusas"
-F 8 "1" H 5100 7250 60  0001 C CNN "Aukstis"
-F 9 "-" H 4800 7250 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 4850 7650 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 5150 7650 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5250 7650 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4600 7350 60  0001 C CNN "Korpuso tipas"
-	1    3950 7450
+P 5450 3150
+F 0 "R?" V 5500 3000 60  0001 C CNN
+F 1 "1k" V 5450 3050 60  0000 C CNN
+F 2 "" H 6400 3150 60  0001 C CNN
+F 3 "" H 3850 3650 60  0001 C CNN
+F 4 "-" H 5450 2950 60  0001 C CNN "ventcode"
+F 5 "1k" H 6900 3350 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 6650 3050 60  0001 C CNN "Kaina"
+F 7 "1206" H 6350 3050 60  0001 C CNN "Korpusas"
+F 8 "1" H 6600 2950 60  0001 C CNN "Aukstis"
+F 9 "-" H 6300 2950 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 6350 3350 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6650 3350 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6750 3350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 3050 60  0001 C CNN "Korpuso tipas"
+	1    5450 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBB58A3
-P 3950 6800
-F 0 "R?" H 3850 6900 60  0001 C CNN
-F 1 "470R" H 3950 6900 60  0000 C CNN
-F 2 "" H 5150 6850 60  0001 C CNN
-F 3 "" H 2350 7300 60  0001 C CNN
-F 4 "-" H 3950 6700 60  0001 C CNN "ventcode"
-F 5 "470R" H 4900 6950 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 5100 6650 60  0001 C CNN "Kaina"
-F 7 "1206" H 5150 6750 60  0001 C CNN "Korpusas"
-F 8 "1" H 4850 6650 60  0001 C CNN "Aukstis"
-F 9 "-" H 4800 6550 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 5000 7050 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4900 6550 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5000 6550 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 6750 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 5100 6550 60  0001 C CNN "Parametras"
-F 15 "-" H 5200 6550 60  0001 C CNN "Komentaras"
-	1    3950 6800
+P 5450 2500
+F 0 "R?" H 5350 2600 60  0001 C CNN
+F 1 "470R" H 5450 2600 60  0000 C CNN
+F 2 "" H 6650 2550 60  0001 C CNN
+F 3 "" H 3850 3000 60  0001 C CNN
+F 4 "-" H 5450 2400 60  0001 C CNN "ventcode"
+F 5 "470R" H 6400 2650 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 6600 2350 60  0001 C CNN "Kaina"
+F 7 "1206" H 6650 2450 60  0001 C CNN "Korpusas"
+F 8 "1" H 6350 2350 60  0001 C CNN "Aukstis"
+F 9 "-" H 6300 2250 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 6500 2750 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6400 2250 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6500 2250 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6350 2450 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 6600 2250 60  0001 C CNN "Parametras"
+F 15 "-" H 6700 2250 60  0001 C CNN "Komentaras"
+	1    5450 2500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBB6516
-P 5700 7250
-F 0 "R?" H 5600 7350 60  0001 C CNN
-F 1 "470R" H 5700 7150 60  0000 C CNN
-F 2 "" H 6900 7300 60  0001 C CNN
-F 3 "" H 4100 7750 60  0001 C CNN
-F 4 "-" H 5700 7150 60  0001 C CNN "ventcode"
-F 5 "470R" H 6650 7400 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 6850 7100 60  0001 C CNN "Kaina"
-F 7 "1206" H 6900 7200 60  0001 C CNN "Korpusas"
-F 8 "1" H 6600 7100 60  0001 C CNN "Aukstis"
-F 9 "-" H 6550 7000 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 6750 7500 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 6650 7000 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 6750 7000 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6600 7200 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 6850 7000 60  0001 C CNN "Parametras"
-F 15 "-" H 6950 7000 60  0001 C CNN "Komentaras"
-	1    5700 7250
+P 7200 2950
+F 0 "R?" H 7100 3050 60  0001 C CNN
+F 1 "470R" H 7200 2850 60  0000 C CNN
+F 2 "" H 8400 3000 60  0001 C CNN
+F 3 "" H 5600 3450 60  0001 C CNN
+F 4 "-" H 7200 2850 60  0001 C CNN "ventcode"
+F 5 "470R" H 8150 3100 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 8350 2800 60  0001 C CNN "Kaina"
+F 7 "1206" H 8400 2900 60  0001 C CNN "Korpusas"
+F 8 "1" H 8100 2800 60  0001 C CNN "Aukstis"
+F 9 "-" H 8050 2700 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8250 3200 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8150 2700 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8250 2700 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8100 2900 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 8350 2700 60  0001 C CNN "Parametras"
+F 15 "-" H 8450 2700 60  0001 C CNN "Komentaras"
+	1    7200 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L disc:Q_BTW67 D1
 U 1 1 5BBB7F54
-P 4400 8850
-F 0 "D1" H 4250 8950 50  0000 L CNN
-F 1 "BTW67" H 4050 8900 50  0001 L CNN
-F 2 "" H 4850 8900 50  0001 C CNN
-F 3 "" V 4400 8850 50  0001 C CNN
-F 4 "-" H 4575 8975 60  0001 C CNN "ventcode"
-	1    4400 8850
+P 5900 4550
+F 0 "D1" H 5750 4650 50  0000 L CNN
+F 1 "BTW67" H 5550 4600 50  0001 L CNN
+F 2 "" H 6350 4600 50  0001 C CNN
+F 3 "" V 5900 4550 50  0001 C CNN
+F 4 "-" H 6075 4675 60  0001 C CNN "ventcode"
+	1    5900 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L disc:Q_BTW67 D1
 U 1 1 5BBB7F5B
-P 5250 8850
-F 0 "D1" H 5050 8900 50  0000 L CNN
-F 1 "BTW67" H 4900 8900 50  0001 L CNN
-F 2 "" H 5700 8900 50  0001 C CNN
-F 3 "" V 5250 8850 50  0001 C CNN
-F 4 "-" H 5425 8975 60  0001 C CNN "ventcode"
-	1    5250 8850
+P 6750 4550
+F 0 "D1" H 6550 4600 50  0000 L CNN
+F 1 "BTW67" H 6400 4600 50  0001 L CNN
+F 2 "" H 7200 4600 50  0001 C CNN
+F 3 "" V 6750 4550 50  0001 C CNN
+F 4 "-" H 6925 4675 60  0001 C CNN "ventcode"
+	1    6750 4550
 	-1   0    0    1   
 $EndComp
-Text Label 6500 8250 2    60   ~ 0
+Text Label 8000 3950 2    60   ~ 0
 LOAD3
-Text Label 6500 9650 2    60   ~ 0
+Text Label 8000 5350 2    60   ~ 0
 FAZE3
-Text Label 2700 9150 2    60   ~ 0
+Text Label 4200 4850 2    60   ~ 0
 X14
-Text Label 2700 8950 2    60   ~ 0
+Text Label 4200 4650 2    60   ~ 0
 X17
 $Comp
 L disc:D_LL4007 D?
 U 1 1 5BBB7F87
-P 5450 8500
-F 0 "D?" V 5350 8650 59  0001 C CNN
-F 1 "LL4007" H 5450 8600 50  0000 C CNN
-F 2 "" H 6100 8450 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 7650 8250 50  0001 C CNN
-F 4 "-" H 5450 8400 60  0001 C CNN "ventcode"
-F 5 "-" H 6200 8650 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 6550 8350 60  0001 C CNN "Kaina"
-F 7 "melf" H 5950 8650 60  0001 C CNN "Korpusas"
-F 8 "2.3" H 6850 8350 60  0001 C CNN "Aukstis"
-F 9 "LL4007" H 6400 8550 60  0001 C CNN "Marke"
-F 10 "Diodas" H 6000 8550 60  0001 C CNN "Pavadinimas"
-F 11 "LL4007" H 6600 8650 59  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 6100 8650 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6550 8450 60  0001 C CNN "Korpuso tipas"
-F 14 "700V/1A" H 6900 8550 60  0001 C CNN "Parametras"
-F 15 "-" H 6300 8650 60  0001 C CNN "Komentaras"
-	1    5450 8500
+P 6950 4200
+F 0 "D?" V 6850 4350 59  0001 C CNN
+F 1 "LL4007" H 6950 4300 50  0000 C CNN
+F 2 "" H 7600 4150 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 9150 3950 50  0001 C CNN
+F 4 "-" H 6950 4100 60  0001 C CNN "ventcode"
+F 5 "-" H 7700 4350 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 8050 4050 60  0001 C CNN "Kaina"
+F 7 "melf" H 7450 4350 60  0001 C CNN "Korpusas"
+F 8 "2.3" H 8350 4050 60  0001 C CNN "Aukstis"
+F 9 "LL4007" H 7900 4250 60  0001 C CNN "Marke"
+F 10 "Diodas" H 7500 4250 60  0001 C CNN "Pavadinimas"
+F 11 "LL4007" H 8100 4350 59  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 7600 4350 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8050 4150 60  0001 C CNN "Korpuso tipas"
+F 14 "700V/1A" H 8400 4250 60  0001 C CNN "Parametras"
+F 15 "-" H 7800 4350 60  0001 C CNN "Komentaras"
+	1    6950 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBB7F97
-P 5700 8500
-F 0 "R?" V 5750 8350 60  0001 C CNN
-F 1 "1k" V 5700 8400 60  0000 C CNN
-F 2 "" H 6650 8500 60  0001 C CNN
-F 3 "" H 4100 9000 60  0001 C CNN
-F 4 "-" H 5700 8300 60  0001 C CNN "ventcode"
-F 5 "1k" H 7150 8700 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 6900 8400 60  0001 C CNN "Kaina"
-F 7 "1206" H 6600 8400 60  0001 C CNN "Korpusas"
-F 8 "1" H 6850 8300 60  0001 C CNN "Aukstis"
-F 9 "-" H 6550 8300 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 6600 8700 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 6900 8700 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 7000 8700 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6350 8400 60  0001 C CNN "Korpuso tipas"
-	1    5700 8500
+P 7200 4200
+F 0 "R?" V 7250 4050 60  0001 C CNN
+F 1 "1k" V 7200 4100 60  0000 C CNN
+F 2 "" H 8150 4200 60  0001 C CNN
+F 3 "" H 5600 4700 60  0001 C CNN
+F 4 "-" H 7200 4000 60  0001 C CNN "ventcode"
+F 5 "1k" H 8650 4400 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 8400 4100 60  0001 C CNN "Kaina"
+F 7 "1206" H 8100 4100 60  0001 C CNN "Korpusas"
+F 8 "1" H 8350 4000 60  0001 C CNN "Aukstis"
+F 9 "-" H 8050 4000 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8100 4400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8400 4400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8500 4400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 7850 4100 60  0001 C CNN "Korpuso tipas"
+	1    7200 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L disc:D_LL4007 D?
 U 1 1 5BBB7FB0
-P 4200 9350
-F 0 "D?" V 4100 9500 59  0001 C CNN
-F 1 "LL4007" H 4200 9250 50  0000 C CNN
-F 2 "" H 4850 9300 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 6400 9100 50  0001 C CNN
-F 4 "-" H 4200 9250 60  0001 C CNN "ventcode"
-F 5 "-" H 4950 9500 60  0001 C CNN "Nominalas"
-F 6 "0.01" H 5300 9200 60  0001 C CNN "Kaina"
-F 7 "melf" H 4700 9500 60  0001 C CNN "Korpusas"
-F 8 "2.3" H 5600 9200 60  0001 C CNN "Aukstis"
-F 9 "LL4007" H 5150 9400 60  0001 C CNN "Marke"
-F 10 "Diodas" H 4750 9400 60  0001 C CNN "Pavadinimas"
-F 11 "LL4007" H 5350 9500 59  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4850 9500 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 5300 9300 60  0001 C CNN "Korpuso tipas"
-F 14 "700V/1A" H 5650 9400 60  0001 C CNN "Parametras"
-F 15 "-" H 5050 9500 60  0001 C CNN "Komentaras"
-	1    4200 9350
+P 5700 5050
+F 0 "D?" V 5600 5200 59  0001 C CNN
+F 1 "LL4007" H 5700 4950 50  0000 C CNN
+F 2 "" H 6350 5000 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LL4007G-L0-Taiwan-Semiconductor-datasheet-11551116.pdf" H 7900 4800 50  0001 C CNN
+F 4 "-" H 5700 4950 60  0001 C CNN "ventcode"
+F 5 "-" H 6450 5200 60  0001 C CNN "Nominalas"
+F 6 "0.01" H 6800 4900 60  0001 C CNN "Kaina"
+F 7 "melf" H 6200 5200 60  0001 C CNN "Korpusas"
+F 8 "2.3" H 7100 4900 60  0001 C CNN "Aukstis"
+F 9 "LL4007" H 6650 5100 60  0001 C CNN "Marke"
+F 10 "Diodas" H 6250 5100 60  0001 C CNN "Pavadinimas"
+F 11 "LL4007" H 6850 5200 59  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6350 5200 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6800 5000 60  0001 C CNN "Korpuso tipas"
+F 14 "700V/1A" H 7150 5100 60  0001 C CNN "Parametras"
+F 15 "-" H 6550 5200 60  0001 C CNN "Komentaras"
+	1    5700 5050
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBB7FC0
-P 3950 9350
-F 0 "R?" V 4000 9200 60  0001 C CNN
-F 1 "1k" V 3950 9250 60  0000 C CNN
-F 2 "" H 4900 9350 60  0001 C CNN
-F 3 "" H 2350 9850 60  0001 C CNN
-F 4 "-" H 3950 9150 60  0001 C CNN "ventcode"
-F 5 "1k" H 5400 9550 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 5150 9250 60  0001 C CNN "Kaina"
-F 7 "1206" H 4850 9250 60  0001 C CNN "Korpusas"
-F 8 "1" H 5100 9150 60  0001 C CNN "Aukstis"
-F 9 "-" H 4800 9150 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 4850 9550 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 5150 9550 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5250 9550 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4600 9250 60  0001 C CNN "Korpuso tipas"
-	1    3950 9350
+P 5450 5050
+F 0 "R?" V 5500 4900 60  0001 C CNN
+F 1 "1k" V 5450 4950 60  0000 C CNN
+F 2 "" H 6400 5050 60  0001 C CNN
+F 3 "" H 3850 5550 60  0001 C CNN
+F 4 "-" H 5450 4850 60  0001 C CNN "ventcode"
+F 5 "1k" H 6900 5250 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 6650 4950 60  0001 C CNN "Kaina"
+F 7 "1206" H 6350 4950 60  0001 C CNN "Korpusas"
+F 8 "1" H 6600 4850 60  0001 C CNN "Aukstis"
+F 9 "-" H 6300 4850 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 6350 5250 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6650 5250 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6750 5250 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6100 4950 60  0001 C CNN "Korpuso tipas"
+	1    5450 5050
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBB7FDA
-P 3950 8700
-F 0 "R?" H 3850 8800 60  0001 C CNN
-F 1 "470R" H 3950 8800 60  0000 C CNN
-F 2 "" H 5150 8750 60  0001 C CNN
-F 3 "" H 2350 9200 60  0001 C CNN
-F 4 "-" H 3950 8600 60  0001 C CNN "ventcode"
-F 5 "470R" H 4900 8850 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 5100 8550 60  0001 C CNN "Kaina"
-F 7 "1206" H 5150 8650 60  0001 C CNN "Korpusas"
-F 8 "1" H 4850 8550 60  0001 C CNN "Aukstis"
-F 9 "-" H 4800 8450 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 5000 8950 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4900 8450 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 5000 8450 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4850 8650 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 5100 8450 60  0001 C CNN "Parametras"
-F 15 "-" H 5200 8450 60  0001 C CNN "Komentaras"
-	1    3950 8700
+P 5450 4400
+F 0 "R?" H 5350 4500 60  0001 C CNN
+F 1 "470R" H 5450 4500 60  0000 C CNN
+F 2 "" H 6650 4450 60  0001 C CNN
+F 3 "" H 3850 4900 60  0001 C CNN
+F 4 "-" H 5450 4300 60  0001 C CNN "ventcode"
+F 5 "470R" H 6400 4550 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 6600 4250 60  0001 C CNN "Kaina"
+F 7 "1206" H 6650 4350 60  0001 C CNN "Korpusas"
+F 8 "1" H 6350 4250 60  0001 C CNN "Aukstis"
+F 9 "-" H 6300 4150 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 6500 4650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 6400 4150 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 6500 4150 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 6350 4350 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 6600 4150 60  0001 C CNN "Parametras"
+F 15 "-" H 6700 4150 60  0001 C CNN "Komentaras"
+	1    5450 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBB7FEC
-P 5700 9150
-F 0 "R?" H 5600 9250 60  0001 C CNN
-F 1 "470R" H 5700 9050 60  0000 C CNN
-F 2 "" H 6900 9200 60  0001 C CNN
-F 3 "" H 4100 9650 60  0001 C CNN
-F 4 "-" H 5700 9050 60  0001 C CNN "ventcode"
-F 5 "470R" H 6650 9300 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 6850 9000 60  0001 C CNN "Kaina"
-F 7 "1206" H 6900 9100 60  0001 C CNN "Korpusas"
-F 8 "1" H 6600 9000 60  0001 C CNN "Aukstis"
-F 9 "-" H 6550 8900 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 6750 9400 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 6650 8900 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 6750 8900 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 6600 9100 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 6850 8900 60  0001 C CNN "Parametras"
-F 15 "-" H 6950 8900 60  0001 C CNN "Komentaras"
-	1    5700 9150
+P 7200 4850
+F 0 "R?" H 7100 4950 60  0001 C CNN
+F 1 "470R" H 7200 4750 60  0000 C CNN
+F 2 "" H 8400 4900 60  0001 C CNN
+F 3 "" H 5600 5350 60  0001 C CNN
+F 4 "-" H 7200 4750 60  0001 C CNN "ventcode"
+F 5 "470R" H 8150 5000 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 8350 4700 60  0001 C CNN "Kaina"
+F 7 "1206" H 8400 4800 60  0001 C CNN "Korpusas"
+F 8 "1" H 8100 4700 60  0001 C CNN "Aukstis"
+F 9 "-" H 8050 4600 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 8250 5100 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 8150 4600 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 8250 4600 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 8100 4800 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 8350 4600 60  0001 C CNN "Parametras"
+F 15 "-" H 8450 4600 60  0001 C CNN "Komentaras"
+	1    7200 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBB8000
-P 2150 9400
-F 0 "R?" V 2200 9250 60  0001 C CNN
-F 1 "330" H 2150 9500 60  0000 C CNN
-F 2 "" H 3100 9400 60  0001 C CNN
-F 3 "" H 550 9900 60  0001 C CNN
-F 4 "-" H 2150 9200 60  0001 C CNN "ventcode"
-F 5 "330" H 3600 9600 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 3350 9300 60  0001 C CNN "Kaina"
-F 7 "0805" H 3050 9300 60  0001 C CNN "Korpusas"
-F 8 "1" H 3300 9200 60  0001 C CNN "Aukstis"
-F 9 "-" H 3000 9200 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 3050 9600 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3350 9600 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3450 9600 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 2800 9300 60  0001 C CNN "Korpuso tipas"
-	1    2150 9400
+P 3650 5100
+F 0 "R?" V 3700 4950 60  0001 C CNN
+F 1 "330" H 3650 5200 60  0000 C CNN
+F 2 "" H 4600 5100 60  0001 C CNN
+F 3 "" H 2050 5600 60  0001 C CNN
+F 4 "-" H 3650 4900 60  0001 C CNN "ventcode"
+F 5 "330" H 5100 5300 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 4850 5000 60  0001 C CNN "Kaina"
+F 7 "0805" H 4550 5000 60  0001 C CNN "Korpusas"
+F 8 "1" H 4800 4900 60  0001 C CNN "Aukstis"
+F 9 "-" H 4500 4900 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4550 5300 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4850 5300 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4950 5300 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4300 5000 60  0001 C CNN "Korpuso tipas"
+	1    3650 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L disc:MOC3060S U?
 U 1 1 5BBB8E9E
-P 1750 9050
-F 0 "U?" H 1550 9250 50  0001 L CNN
-F 1 "MOC3060S" H 3400 9200 50  0001 L CNN
-F 2 "" H 2600 9100 50  0001 L CIN
-F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 2600 9000 50  0001 L CNN
-F 4 "-" H 1750 8650 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 2950 9200 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 3400 8900 60  0001 C CNN "Kaina"
-F 7 "SMD" H 3050 8900 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 1750 9250 47  0000 C CNN "Gamintojo kodas"
-	1    1750 9050
+P 3250 4750
+F 0 "U?" H 3050 4950 50  0001 L CNN
+F 1 "MOC3060S" H 4900 4900 50  0001 L CNN
+F 2 "" H 4100 4800 50  0001 L CIN
+F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 4100 4700 50  0001 L CNN
+F 4 "-" H 3250 4350 60  0001 C CNN "ventcode"
+F 5 "Optosimistorius" H 4450 4900 60  0001 C CNN "Pavadinimas"
+F 6 "0" H 4900 4600 60  0001 C CNN "Kaina"
+F 7 "SMD" H 4550 4600 60  0001 C CNN "Korpuso tipas"
+F 8 "MOC3060S" H 3250 4950 47  0000 C CNN "Gamintojo kodas"
+	1    3250 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBBA895
-P 2150 7500
-F 0 "R?" V 2200 7350 60  0001 C CNN
-F 1 "330" H 2150 7600 60  0000 C CNN
-F 2 "" H 3100 7500 60  0001 C CNN
-F 3 "" H 550 8000 60  0001 C CNN
-F 4 "-" H 2150 7300 60  0001 C CNN "ventcode"
-F 5 "330" H 3600 7700 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 3350 7400 60  0001 C CNN "Kaina"
-F 7 "0805" H 3050 7400 60  0001 C CNN "Korpusas"
-F 8 "1" H 3300 7300 60  0001 C CNN "Aukstis"
-F 9 "-" H 3000 7300 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 3050 7700 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 3350 7700 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 3450 7700 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 2800 7400 60  0001 C CNN "Korpuso tipas"
-	1    2150 7500
+P 3650 3200
+F 0 "R?" V 3700 3050 60  0001 C CNN
+F 1 "330" H 3650 3300 60  0000 C CNN
+F 2 "" H 4600 3200 60  0001 C CNN
+F 3 "" H 2050 3700 60  0001 C CNN
+F 4 "-" H 3650 3000 60  0001 C CNN "ventcode"
+F 5 "330" H 5100 3400 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 4850 3100 60  0001 C CNN "Kaina"
+F 7 "0805" H 4550 3100 60  0001 C CNN "Korpusas"
+F 8 "1" H 4800 3000 60  0001 C CNN "Aukstis"
+F 9 "-" H 4500 3000 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 4550 3400 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 4850 3400 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 4950 3400 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 4300 3100 60  0001 C CNN "Korpuso tipas"
+	1    3650 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L disc:MOC3060S U?
 U 1 1 5BBBA8A2
-P 1750 7150
-F 0 "U?" H 1550 7350 50  0001 L CNN
-F 1 "MOC3060S" H 3400 7300 50  0001 L CNN
-F 2 "" H 2600 7200 50  0001 L CIN
-F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 2600 7100 50  0001 L CNN
-F 4 "-" H 1750 6750 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 2950 7300 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 3400 7000 60  0001 C CNN "Kaina"
-F 7 "SMD" H 3050 7000 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 1750 7350 47  0000 C CNN "Gamintojo kodas"
-	1    1750 7150
+P 3250 2850
+F 0 "U?" H 3050 3050 50  0001 L CNN
+F 1 "MOC3060S" H 4900 3000 50  0001 L CNN
+F 2 "" H 4100 2900 50  0001 L CIN
+F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 4100 2800 50  0001 L CNN
+F 4 "-" H 3250 2450 60  0001 C CNN "ventcode"
+F 5 "Optosimistorius" H 4450 3000 60  0001 C CNN "Pavadinimas"
+F 6 "0" H 4900 2700 60  0001 C CNN "Kaina"
+F 7 "SMD" H 4550 2700 60  0001 C CNN "Korpuso tipas"
+F 8 "MOC3060S" H 3250 3050 47  0000 C CNN "Gamintojo kodas"
+	1    3250 2850
 	1    0    0    -1  
 $EndComp
-Text Label 2700 7750 2    60   ~ 0
+Text Label 4200 3450 2    60   ~ 0
 X12
-Text Label 2700 9650 2    60   ~ 0
+Text Label 4200 5350 2    60   ~ 0
 X26
-Text Label 3600 8450 0    60   ~ 0
+Text Label 5100 4150 0    60   ~ 0
 X2
-Text Label 5700 9900 1    60   ~ 0
+Text Label 7200 5600 1    60   ~ 0
 X2
-Text Label 3600 6550 0    60   ~ 0
+Text Label 5100 2250 0    60   ~ 0
 X2
-Text Label 5700 8000 1    60   ~ 0
+Text Label 7200 3700 1    60   ~ 0
 X2
-Text Notes 4050 6400 0    60   ~ 0
+Text Notes 5550 2100 0    60   ~ 0
 V1
-Text Notes 5400 7650 0    60   ~ 0
+Text Notes 6900 3350 0    60   ~ 0
 V2
-Text Notes 4050 8300 0    60   ~ 0
+Text Notes 5550 4000 0    60   ~ 0
 V3
-Text Notes 5400 9550 0    60   ~ 0
+Text Notes 6900 5250 0    60   ~ 0
 V4
-Text Label 4750 8250 2    60   ~ 0
+Text Label 6250 3950 2    60   ~ 0
 X1
-Text Label 4750 9650 2    60   ~ 0
+Text Label 6250 5350 2    60   ~ 0
 X3
-Text Label 4750 7750 2    60   ~ 0
+Text Label 6250 3450 2    60   ~ 0
 X3
-Text Label 4750 6350 2    60   ~ 0
+Text Label 6250 2050 2    60   ~ 0
 X1
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBD6370
-P 8550 6700
-F 0 "R?" V 8600 6550 60  0001 C CNN
-F 1 "330" H 8550 6800 60  0000 C CNN
-F 2 "" H 9500 6700 60  0001 C CNN
-F 3 "" H 6950 7200 60  0001 C CNN
-F 4 "-" H 8550 6500 60  0001 C CNN "ventcode"
-F 5 "330" H 10000 6900 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 9750 6600 60  0001 C CNN "Kaina"
-F 7 "0805" H 9450 6600 60  0001 C CNN "Korpusas"
-F 8 "1" H 9700 6500 60  0001 C CNN "Aukstis"
-F 9 "-" H 9400 6500 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 9450 6900 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 9750 6900 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 9850 6900 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 9200 6600 60  0001 C CNN "Korpuso tipas"
-	1    8550 6700
+P 18150 11650
+F 0 "R?" V 18200 11500 60  0001 C CNN
+F 1 "330" H 18150 11750 60  0000 C CNN
+F 2 "" H 19100 11650 60  0001 C CNN
+F 3 "" H 16550 12150 60  0001 C CNN
+F 4 "-" H 18150 11450 60  0001 C CNN "ventcode"
+F 5 "330" H 19600 11850 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 19350 11550 60  0001 C CNN "Kaina"
+F 7 "0805" H 19050 11550 60  0001 C CNN "Korpusas"
+F 8 "1" H 19300 11450 60  0001 C CNN "Aukstis"
+F 9 "-" H 19000 11450 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 19050 11850 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 19350 11850 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 19450 11850 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 18800 11550 60  0001 C CNN "Korpuso tipas"
+	1    18150 11650
 	0    1    1    0   
 $EndComp
 $Comp
 L resistors_us:R_1k_1206_1% R?
 U 1 1 5BBD6DBC
-P 8550 8900
-F 0 "R?" V 8600 8750 60  0001 C CNN
-F 1 "330" H 8550 9000 60  0000 C CNN
-F 2 "" H 9500 8900 60  0001 C CNN
-F 3 "" H 6950 9400 60  0001 C CNN
-F 4 "-" H 8550 8700 60  0001 C CNN "ventcode"
-F 5 "330" H 10000 9100 60  0001 C CNN "Nominalas"
-F 6 "0.001" H 9750 8800 60  0001 C CNN "Kaina"
-F 7 "0805" H 9450 8800 60  0001 C CNN "Korpusas"
-F 8 "1" H 9700 8700 60  0001 C CNN "Aukstis"
-F 9 "-" H 9400 8700 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 9450 9100 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 9750 9100 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 9850 9100 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 9200 8800 60  0001 C CNN "Korpuso tipas"
-	1    8550 8900
+P 18150 13850
+F 0 "R?" V 18200 13700 60  0001 C CNN
+F 1 "330" H 18150 13950 60  0000 C CNN
+F 2 "" H 19100 13850 60  0001 C CNN
+F 3 "" H 16550 14350 60  0001 C CNN
+F 4 "-" H 18150 13650 60  0001 C CNN "ventcode"
+F 5 "330" H 19600 14050 60  0001 C CNN "Nominalas"
+F 6 "0.001" H 19350 13750 60  0001 C CNN "Kaina"
+F 7 "0805" H 19050 13750 60  0001 C CNN "Korpusas"
+F 8 "1" H 19300 13650 60  0001 C CNN "Aukstis"
+F 9 "-" H 19000 13650 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 19050 14050 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 19350 14050 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 19450 14050 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 18800 13750 60  0001 C CNN "Korpuso tipas"
+	1    18150 13850
 	0    1    1    0   
 $EndComp
-Text Label 9100 6950 2    60   ~ 0
+Text Label 18700 11900 2    60   ~ 0
 X7
-Text Label 9100 7150 2    60   ~ 0
+Text Label 18700 12100 2    60   ~ 0
 X9
-Text Label 9100 8450 2    60   ~ 0
+Text Label 18700 13400 2    60   ~ 0
 X17
-Text Label 9100 8650 2    60   ~ 0
+Text Label 18700 13600 2    60   ~ 0
 X14
-Text Label 12500 6350 2    60   ~ 0
+Text Label 22100 11300 2    60   ~ 0
 PH1
-Text Label 12500 9250 2    60   ~ 0
+Text Label 22100 14200 2    60   ~ 0
 PH3
-Text Label 9100 6350 2    60   ~ 0
+Text Label 18700 11300 2    60   ~ 0
 X12
-Text Label 9100 9250 2    60   ~ 0
+Text Label 18700 14200 2    60   ~ 0
 X26
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBE1993
-P 11450 7250
-F 0 "R?" H 11350 7350 60  0001 C CNN
-F 1 "470R" H 11450 7150 60  0000 C CNN
-F 2 "" H 12650 7300 60  0001 C CNN
-F 3 "" H 9850 7750 60  0001 C CNN
-F 4 "-" H 11450 7150 60  0001 C CNN "ventcode"
-F 5 "470R" H 12400 7400 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 12600 7100 60  0001 C CNN "Kaina"
-F 7 "1206" H 12650 7200 60  0001 C CNN "Korpusas"
-F 8 "1" H 12350 7100 60  0001 C CNN "Aukstis"
-F 9 "-" H 12300 7000 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 12500 7500 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 12400 7000 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 12500 7000 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 12350 7200 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 12600 7000 60  0001 C CNN "Parametras"
-F 15 "-" H 12700 7000 60  0001 C CNN "Komentaras"
-	1    11450 7250
+P 21050 12200
+F 0 "R?" H 20950 12300 60  0001 C CNN
+F 1 "470R" H 21050 12100 60  0000 C CNN
+F 2 "" H 22250 12250 60  0001 C CNN
+F 3 "" H 19450 12700 60  0001 C CNN
+F 4 "-" H 21050 12100 60  0001 C CNN "ventcode"
+F 5 "470R" H 22000 12350 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 22200 12050 60  0001 C CNN "Kaina"
+F 7 "1206" H 22250 12150 60  0001 C CNN "Korpusas"
+F 8 "1" H 21950 12050 60  0001 C CNN "Aukstis"
+F 9 "-" H 21900 11950 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 22100 12450 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 22000 11950 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 22100 11950 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 21950 12150 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 22200 11950 60  0001 C CNN "Parametras"
+F 15 "-" H 22300 11950 60  0001 C CNN "Komentaras"
+	1    21050 12200
 	1    0    0    -1  
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBE19FE
-P 11450 8750
-F 0 "R?" H 11350 8850 60  0001 C CNN
-F 1 "470R" H 11450 8650 60  0000 C CNN
-F 2 "" H 12650 8800 60  0001 C CNN
-F 3 "" H 9850 9250 60  0001 C CNN
-F 4 "-" H 11450 8650 60  0001 C CNN "ventcode"
-F 5 "470R" H 12400 8900 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 12600 8600 60  0001 C CNN "Kaina"
-F 7 "1206" H 12650 8700 60  0001 C CNN "Korpusas"
-F 8 "1" H 12350 8600 60  0001 C CNN "Aukstis"
-F 9 "-" H 12300 8500 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 12500 9000 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 12400 8500 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 12500 8500 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 12350 8700 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 12600 8500 60  0001 C CNN "Parametras"
-F 15 "-" H 12700 8500 60  0001 C CNN "Komentaras"
-	1    11450 8750
+P 21050 13700
+F 0 "R?" H 20950 13800 60  0001 C CNN
+F 1 "470R" H 21050 13600 60  0000 C CNN
+F 2 "" H 22250 13750 60  0001 C CNN
+F 3 "" H 19450 14200 60  0001 C CNN
+F 4 "-" H 21050 13600 60  0001 C CNN "ventcode"
+F 5 "470R" H 22000 13850 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 22200 13550 60  0001 C CNN "Kaina"
+F 7 "1206" H 22250 13650 60  0001 C CNN "Korpusas"
+F 8 "1" H 21950 13550 60  0001 C CNN "Aukstis"
+F 9 "-" H 21900 13450 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 22100 13950 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 22000 13450 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 22100 13450 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 21950 13650 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 22200 13450 60  0001 C CNN "Parametras"
+F 15 "-" H 22300 13450 60  0001 C CNN "Komentaras"
+	1    21050 13700
 	1    0    0    -1  
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBE1CA9
-P 10000 6950
-F 0 "R?" H 9900 7050 60  0001 C CNN
-F 1 "470R" H 10000 7050 60  0000 C CNN
-F 2 "" H 11200 7000 60  0001 C CNN
-F 3 "" H 8400 7450 60  0001 C CNN
-F 4 "-" H 10000 6850 60  0001 C CNN "ventcode"
-F 5 "470R" H 10950 7100 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 11150 6800 60  0001 C CNN "Kaina"
-F 7 "1206" H 11200 6900 60  0001 C CNN "Korpusas"
-F 8 "1" H 10900 6800 60  0001 C CNN "Aukstis"
-F 9 "-" H 10850 6700 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 11050 7200 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 10950 6700 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 11050 6700 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 10900 6900 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 11150 6700 60  0001 C CNN "Parametras"
-F 15 "-" H 11250 6700 60  0001 C CNN "Komentaras"
-	1    10000 6950
+P 19600 11900
+F 0 "R?" H 19500 12000 60  0001 C CNN
+F 1 "470R" H 19600 12000 60  0000 C CNN
+F 2 "" H 20800 11950 60  0001 C CNN
+F 3 "" H 18000 12400 60  0001 C CNN
+F 4 "-" H 19600 11800 60  0001 C CNN "ventcode"
+F 5 "470R" H 20550 12050 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 20750 11750 60  0001 C CNN "Kaina"
+F 7 "1206" H 20800 11850 60  0001 C CNN "Korpusas"
+F 8 "1" H 20500 11750 60  0001 C CNN "Aukstis"
+F 9 "-" H 20450 11650 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 20650 12150 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 20550 11650 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 20650 11650 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 20500 11850 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 20750 11650 60  0001 C CNN "Parametras"
+F 15 "-" H 20850 11650 60  0001 C CNN "Komentaras"
+	1    19600 11900
 	1    0    0    -1  
 $EndComp
 $Comp
 L resistors_us:R_470R_1206_1% R?
 U 1 1 5BBE1D14
-P 10000 8450
-F 0 "R?" H 9900 8550 60  0001 C CNN
-F 1 "470R" H 10000 8550 60  0000 C CNN
-F 2 "" H 11200 8500 60  0001 C CNN
-F 3 "" H 8400 8950 60  0001 C CNN
-F 4 "-" H 10000 8350 60  0001 C CNN "ventcode"
-F 5 "470R" H 10950 8600 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 11150 8300 60  0001 C CNN "Kaina"
-F 7 "1206" H 11200 8400 60  0001 C CNN "Korpusas"
-F 8 "1" H 10900 8300 60  0001 C CNN "Aukstis"
-F 9 "-" H 10850 8200 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 11050 8700 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 10950 8200 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 11050 8200 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 10900 8400 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 11150 8200 60  0001 C CNN "Parametras"
-F 15 "-" H 11250 8200 60  0001 C CNN "Komentaras"
-	1    10000 8450
+P 19600 13400
+F 0 "R?" H 19500 13500 60  0001 C CNN
+F 1 "470R" H 19600 13500 60  0000 C CNN
+F 2 "" H 20800 13450 60  0001 C CNN
+F 3 "" H 18000 13900 60  0001 C CNN
+F 4 "-" H 19600 13300 60  0001 C CNN "ventcode"
+F 5 "470R" H 20550 13550 59  0001 C CNN "Nominalas"
+F 6 "0.001" H 20750 13250 60  0001 C CNN "Kaina"
+F 7 "1206" H 20800 13350 60  0001 C CNN "Korpusas"
+F 8 "1" H 20500 13250 60  0001 C CNN "Aukstis"
+F 9 "-" H 20450 13150 60  0001 C CNN "Marke"
+F 10 "Rezistorius" H 20650 13650 60  0001 C CNN "Pavadinimas"
+F 11 "-" H 20550 13150 60  0001 C CNN "Gamintojo Kodas"
+F 12 "-" H 20650 13150 60  0001 C CNN "Nuoroda"
+F 13 "SMD" H 20500 13350 60  0001 C CNN "Korpuso tipas"
+F 14 "-" H 20750 13150 60  0001 C CNN "Parametras"
+F 15 "-" H 20850 13150 60  0001 C CNN "Komentaras"
+	1    19600 13400
 	1    0    0    -1  
 $EndComp
-Text Label 9600 8450 0    60   ~ 0
+Text Label 19200 13400 0    60   ~ 0
 X2
-Text Label 10400 8700 1    60   ~ 0
+Text Label 20000 13650 1    60   ~ 0
 X3
-Text Label 10400 8100 1    60   ~ 0
+Text Label 20000 13050 1    60   ~ 0
 X1
-Text Label 11850 8600 1    60   ~ 0
+Text Label 21450 13550 1    60   ~ 0
 X3
-Text Label 11100 8750 0    60   ~ 0
+Text Label 20700 13700 0    60   ~ 0
 X2
-Text Label 11850 9200 1    60   ~ 0
+Text Label 21450 14150 1    60   ~ 0
 X1
-Text Label 9600 6950 0    60   ~ 0
+Text Label 19200 11900 0    60   ~ 0
 X2
-Text Label 10400 7200 1    60   ~ 0
+Text Label 20000 12150 1    60   ~ 0
 X3
-Text Label 10400 6600 1    60   ~ 0
+Text Label 20000 11550 1    60   ~ 0
 X1
-Text Label 11850 7700 1    60   ~ 0
+Text Label 21450 12650 1    60   ~ 0
 X1
-Text Label 11850 7100 1    60   ~ 0
+Text Label 21450 12050 1    60   ~ 0
 X3
-Text Label 11050 7250 0    60   ~ 0
+Text Label 20650 12200 0    60   ~ 0
 X2
 Wire Wire Line
-	2250 1700 2350 1700
+	-2900 1700 -2800 1700
 Wire Wire Line
-	2350 1700 2500 1700
+	-2800 1700 -2650 1700
 Wire Wire Line
-	2500 1700 2750 1700
+	-2650 1700 -2400 1700
 Wire Wire Line
-	2350 1850 2350 1700
-Connection ~ 2350 1700
+	-2800 1850 -2800 1700
+Connection ~ -2800 1700
 Wire Wire Line
-	2500 1850 2500 1700
-Connection ~ 2500 1700
+	-2650 1850 -2650 1700
+Connection ~ -2650 1700
 Wire Wire Line
-	2350 2150 2350 2250
+	-2800 2150 -2800 2250
 Wire Wire Line
-	1600 2250 2350 2250
+	-3550 2250 -2800 2250
 Wire Wire Line
-	2350 2250 2500 2250
+	-2800 2250 -2650 2250
 Wire Wire Line
-	2500 2250 2900 2250
+	-2650 2250 -2250 2250
 Wire Wire Line
-	2900 2250 3650 2250
+	-2250 2250 -1500 2250
 Wire Wire Line
-	2500 2250 2500 2150
+	-2650 2250 -2650 2150
 Wire Wire Line
-	2900 1750 2900 1850
+	-2250 1750 -2250 1850
 Wire Wire Line
-	2900 1850 2900 2250
-Connection ~ 2500 2250
+	-2250 1850 -2250 2250
+Connection ~ -2650 2250
 Wire Wire Line
-	2900 1250 2900 1350
+	-2250 1250 -2250 1350
 Wire Wire Line
-	2900 1350 2900 1450
-Connection ~ 2900 2250
+	-2250 1350 -2250 1450
+Connection ~ -2250 2250
 Wire Wire Line
-	1200 1700 1850 1700
+	-3950 1700 -3300 1700
 Wire Wire Line
-	1850 1700 1950 1700
-Connection ~ 2900 1350
+	-3300 1700 -3200 1700
+Connection ~ -2250 1350
 Wire Wire Line
-	1850 1700 1850 1850
+	-3300 1700 -3300 1850
 Wire Wire Line
-	1850 1850 1600 1850
-Connection ~ 1850 1700
+	-3300 1850 -3550 1850
+Connection ~ -3300 1700
 Wire Wire Line
-	2900 1250 3650 1250
+	-2250 1250 -1500 1250
 Wire Wire Line
-	3250 1850 2900 1850
-Connection ~ 2900 1850
+	-1900 1850 -2250 1850
+Connection ~ -2250 1850
 Wire Wire Line
-	3250 1350 2900 1350
+	-1900 1350 -2250 1350
 Wire Wire Line
-	8450 8450 8550 8450
+	18050 13400 18150 13400
 Wire Wire Line
-	8550 8450 9850 8450
+	18150 13400 19450 13400
 Wire Wire Line
-	10400 8850 10400 8500
+	20000 13800 20000 13450
 Wire Wire Line
-	10400 8200 10400 7950
+	20000 13150 20000 12900
 Wire Wire Line
-	10400 7950 11850 7950
+	20000 12900 21450 12900
 Wire Wire Line
-	11850 7950 12500 7950
+	21450 12900 22100 12900
 Wire Wire Line
-	11850 8050 11850 7950
-Connection ~ 11850 7950
+	21450 13000 21450 12900
+Connection ~ 21450 12900
 Wire Wire Line
-	11850 8350 11850 8700
+	21450 13300 21450 13650
 Wire Wire Line
-	8550 9250 10400 9250
+	18150 14200 20000 14200
 Wire Wire Line
-	10400 9250 11850 9250
+	20000 14200 21450 14200
 Wire Wire Line
-	11850 9250 12500 9250
+	21450 14200 22100 14200
 Wire Wire Line
-	11850 9000 11850 9250
-Connection ~ 11850 9250
+	21450 13950 21450 14200
+Connection ~ 21450 14200
 Wire Wire Line
-	10400 7350 10400 7000
+	20000 12300 20000 11950
 Wire Wire Line
-	10400 6700 10400 6350
+	20000 11650 20000 11300
 Wire Wire Line
-	8550 6350 10400 6350
+	18150 11300 20000 11300
 Wire Wire Line
-	10400 6350 11850 6350
+	20000 11300 21450 11300
 Wire Wire Line
-	11850 6350 12500 6350
+	21450 11300 22100 11300
 Wire Wire Line
-	11850 6450 11850 6350
-Connection ~ 11850 6350
+	21450 11400 21450 11300
+Connection ~ 21450 11300
 Wire Wire Line
-	11850 6750 11850 7200
+	21450 11700 21450 12150
 Wire Wire Line
-	10400 7650 10400 7750
+	20000 12600 20000 12700
 Wire Wire Line
-	10400 7750 11850 7750
+	20000 12700 21450 12700
 Wire Wire Line
-	11850 7750 12500 7750
+	21450 12700 22100 12700
 Wire Wire Line
-	11850 7500 11850 7750
-Connection ~ 11850 7750
+	21450 12450 21450 12700
+Connection ~ 21450 12700
 Wire Wire Line
-	8450 7150 8550 7150
+	18050 12100 18150 12100
 Wire Wire Line
-	8550 7150 9650 7150
+	18150 12100 19250 12100
 Wire Wire Line
-	11600 7250 11700 7250
+	21200 12200 21300 12200
 Wire Wire Line
-	8450 8650 9650 8650
+	18050 13600 19250 13600
 Wire Wire Line
-	11600 8750 11700 8750
+	21200 13700 21300 13700
 Wire Notes Line
-	7700 6250 8900 6250
+	17300 11200 18500 11200
 Wire Notes Line
-	8900 6250 8900 9450
+	18500 11200 18500 14400
 Wire Notes Line
-	8900 9450 8200 9450
+	18500 14400 17800 14400
 Wire Wire Line
 	4950 12750 5600 12750
 Wire Wire Line
@@ -1571,7 +1570,7 @@ Wire Notes Line
 	7150 13600 6600 13600
 Wire Notes Line
 	6600 13600 6600 12200
-Connection ~ 2350 2250
+Connection ~ -2800 2250
 Wire Wire Line
 	10750 12750 10750 12900
 Wire Wire Line
@@ -1579,298 +1578,298 @@ Wire Wire Line
 Wire Wire Line
 	7350 12950 8050 12950
 Wire Wire Line
-	4400 6800 4400 6350
+	5900 2500 5900 2050
 Wire Wire Line
-	4400 6350 5250 6350
+	5900 2050 6750 2050
 Wire Wire Line
-	5250 6350 5450 6350
+	6750 2050 6950 2050
 Wire Wire Line
-	5450 6350 5700 6350
+	6950 2050 7200 2050
 Wire Wire Line
-	5700 6350 6500 6350
+	7200 2050 8000 2050
 Wire Wire Line
-	5250 6350 5250 6800
+	6750 2050 6750 2500
 Wire Wire Line
-	4400 7750 4400 7100
+	5900 3450 5900 2800
 Wire Wire Line
-	3950 7750 4200 7750
+	5450 3450 5700 3450
 Wire Wire Line
-	4200 7750 4400 7750
+	5700 3450 5900 3450
 Wire Wire Line
-	4400 7750 5250 7750
+	5900 3450 6750 3450
 Wire Wire Line
-	5250 7750 6500 7750
+	6750 3450 8000 3450
 Wire Wire Line
-	5250 7750 5250 7100
+	6750 3450 6750 2800
 Wire Wire Line
-	3950 6950 3950 7050
+	5450 2650 5450 2750
 Wire Wire Line
-	3950 7050 3950 7300
+	5450 2750 5450 3000
 Wire Wire Line
-	3950 7050 4200 7050
+	5450 2750 5700 2750
 Wire Wire Line
-	4200 7050 4250 7050
+	5700 2750 5750 2750
 Wire Wire Line
-	5400 6850 5450 6850
+	6900 2550 6950 2550
 Wire Wire Line
-	5450 6850 5700 6850
+	6950 2550 7200 2550
 Wire Wire Line
-	5700 6750 5700 6850
+	7200 2450 7200 2550
 Wire Wire Line
-	5700 6850 5700 7100
-Connection ~ 5250 6350
-Connection ~ 5250 7750
+	7200 2550 7200 2800
+Connection ~ 6750 2050
+Connection ~ 6750 3450
 Wire Wire Line
-	5700 6450 5700 6350
-Connection ~ 5700 6350
+	7200 2150 7200 2050
+Connection ~ 7200 2050
 Wire Wire Line
-	5450 6450 5450 6350
-Connection ~ 5450 6350
+	6950 2150 6950 2050
+Connection ~ 6950 2050
 Wire Wire Line
-	5450 6750 5450 6850
-Connection ~ 5450 6850
-Connection ~ 5700 6850
+	6950 2450 6950 2550
+Connection ~ 6950 2550
+Connection ~ 7200 2550
 Wire Wire Line
-	4200 7300 4200 7050
-Connection ~ 4200 7050
-Connection ~ 3950 7050
+	5700 3000 5700 2750
+Connection ~ 5700 2750
+Connection ~ 5450 2750
 Wire Wire Line
-	3950 7600 3950 7750
-Connection ~ 4400 7750
+	5450 3300 5450 3450
+Connection ~ 5900 3450
 Wire Wire Line
-	4200 7750 4200 7600
-Connection ~ 4200 7750
+	5700 3450 5700 3300
+Connection ~ 5700 3450
 Wire Wire Line
-	2050 7250 2150 7250
+	3550 2950 3650 2950
 Wire Wire Line
-	2150 7250 3550 7250
+	3650 2950 5050 2950
 Wire Notes Line
-	1200 6650 2500 6650
+	2700 2350 4000 2350
 Wire Notes Line
-	2500 6650 2500 9750
+	4000 2350 4000 5450
 Wire Notes Line
-	2500 9750 1200 9750
+	4000 5450 2700 5450
 Wire Wire Line
-	4400 8700 4400 8250
+	5900 4400 5900 3950
 Wire Wire Line
-	4400 8250 5250 8250
+	5900 3950 6750 3950
 Wire Wire Line
-	5250 8250 5450 8250
+	6750 3950 6950 3950
 Wire Wire Line
-	5450 8250 5700 8250
+	6950 3950 7200 3950
 Wire Wire Line
-	5700 8250 6500 8250
+	7200 3950 8000 3950
 Wire Wire Line
-	5250 8250 5250 8700
+	6750 3950 6750 4400
 Wire Wire Line
-	4400 9650 4400 9000
+	5900 5350 5900 4700
 Wire Wire Line
-	3950 9650 4200 9650
+	5450 5350 5700 5350
 Wire Wire Line
-	4200 9650 4400 9650
+	5700 5350 5900 5350
 Wire Wire Line
-	4400 9650 5250 9650
+	5900 5350 6750 5350
 Wire Wire Line
-	5250 9650 6500 9650
+	6750 5350 8000 5350
 Wire Wire Line
-	5250 9650 5250 9000
+	6750 5350 6750 4700
 Wire Wire Line
-	3950 8850 3950 8950
+	5450 4550 5450 4650
 Wire Wire Line
-	3950 8950 3950 9200
+	5450 4650 5450 4900
 Wire Wire Line
-	3950 8950 4200 8950
+	5450 4650 5700 4650
 Wire Wire Line
-	4200 8950 4250 8950
+	5700 4650 5750 4650
 Wire Wire Line
-	5400 8750 5450 8750
+	6900 4450 6950 4450
 Wire Wire Line
-	5450 8750 5700 8750
+	6950 4450 7200 4450
 Wire Wire Line
-	5700 8650 5700 8750
+	7200 4350 7200 4450
 Wire Wire Line
-	5700 8750 5700 9000
-Connection ~ 5250 8250
-Connection ~ 5250 9650
+	7200 4450 7200 4700
+Connection ~ 6750 3950
+Connection ~ 6750 5350
 Wire Wire Line
-	5700 8350 5700 8250
-Connection ~ 5700 8250
+	7200 4050 7200 3950
+Connection ~ 7200 3950
 Wire Wire Line
-	5450 8350 5450 8250
-Connection ~ 5450 8250
+	6950 4050 6950 3950
+Connection ~ 6950 3950
 Wire Wire Line
-	5450 8650 5450 8750
-Connection ~ 5450 8750
-Connection ~ 5700 8750
+	6950 4350 6950 4450
+Connection ~ 6950 4450
+Connection ~ 7200 4450
 Wire Wire Line
-	4200 9200 4200 8950
-Connection ~ 4200 8950
-Connection ~ 3950 8950
+	5700 4900 5700 4650
+Connection ~ 5700 4650
+Connection ~ 5450 4650
 Wire Wire Line
-	3950 9500 3950 9650
-Connection ~ 4400 9650
+	5450 5200 5450 5350
+Connection ~ 5900 5350
 Wire Wire Line
-	4200 9650 4200 9500
-Connection ~ 4200 9650
+	5700 5350 5700 5200
+Connection ~ 5700 5350
 Wire Notes Line
-	3750 9750 3750 8150
+	5250 5450 5250 3850
 Wire Notes Line
-	3750 8150 4600 8150
+	5250 3850 6100 3850
 Wire Notes Line
-	5900 8150 5900 9750
+	7400 3850 7400 5450
 Wire Notes Line
-	4600 9750 3750 9750
+	6100 5450 5250 5450
 Wire Notes Line
-	3750 7850 3750 6250
+	5250 3550 5250 1950
 Wire Notes Line
-	3750 6250 4600 6250
+	5250 1950 6100 1950
 Wire Notes Line
-	4600 6250 4600 7850
+	6100 1950 6100 3550
 Wire Notes Line
-	4600 7850 3750 7850
+	6100 3550 5250 3550
 Wire Wire Line
-	2150 7250 2150 7350
-Connection ~ 2150 7250
+	3650 2950 3650 3050
+Connection ~ 3650 2950
 Wire Wire Line
-	2150 7650 2150 7750
+	3650 3350 3650 3450
 Wire Wire Line
-	2150 9650 2150 9550
+	3650 5350 3650 5250
 Wire Wire Line
-	2150 9250 2150 8950
-Connection ~ 2150 8950
+	3650 4950 3650 4650
+Connection ~ 3650 4650
 Wire Wire Line
-	2050 8950 2150 8950
+	3550 4650 3650 4650
 Wire Wire Line
-	2150 8950 3400 8950
+	3650 4650 4900 4650
 Wire Wire Line
-	2050 7050 3400 7050
+	3550 2750 4900 2750
 Wire Wire Line
-	3400 7050 3400 8050
+	4900 2750 4900 3750
 Wire Wire Line
-	3550 7250 3550 6550
+	5050 2950 5050 2250
 Wire Wire Line
-	3550 6550 3950 6550
+	5050 2250 5450 2250
 Wire Notes Line
-	5150 7850 5150 6250
+	6650 3550 6650 1950
 Wire Notes Line
-	5150 6250 5900 6250
+	6650 1950 7400 1950
 Wire Notes Line
-	5900 6250 5900 7850
+	7400 1950 7400 3550
 Wire Notes Line
-	5900 7850 5150 7850
+	7400 3550 6650 3550
 Wire Notes Line
-	4600 8150 4600 9750
+	6100 3850 6100 5450
 Wire Notes Line
-	5900 8150 5150 8150
+	7400 3850 6650 3850
 Wire Notes Line
-	5150 8150 5150 9750
+	6650 3850 6650 5450
 Wire Notes Line
-	5150 9750 5900 9750
+	6650 5450 7400 5450
 Wire Wire Line
-	2050 9150 3400 9150
+	3550 4850 4900 4850
 Wire Wire Line
-	3400 9150 3400 9950
+	4900 4850 4900 5650
 Wire Wire Line
-	3400 9950 5700 9950
+	4900 5650 7200 5650
 Wire Wire Line
-	5700 9950 5700 9300
+	7200 5650 7200 5000
 Wire Wire Line
-	3400 8050 5700 8050
+	4900 3750 7200 3750
 Wire Wire Line
-	5700 8050 5700 7400
+	7200 3750 7200 3100
 Wire Wire Line
-	3950 6550 3950 6650
+	5450 2250 5450 2350
 Wire Wire Line
-	3400 8950 3400 8450
+	4900 4650 4900 4150
 Wire Wire Line
-	3400 8450 3950 8450
+	4900 4150 5450 4150
 Wire Wire Line
-	3950 8450 3950 8550
+	5450 4150 5450 4250
 Wire Wire Line
-	8550 6350 8550 6550
-Connection ~ 10400 6350
+	18150 11300 18150 11500
+Connection ~ 20000 11300
 Wire Wire Line
-	8550 8450 8550 8750
-Connection ~ 8550 8450
+	18150 13400 18150 13700
+Connection ~ 18150 13400
 Wire Wire Line
-	8550 9250 8550 9050
-Connection ~ 10400 9250
+	18150 14200 18150 14000
+Connection ~ 20000 14200
 Wire Wire Line
-	10250 8450 10150 8450
+	19850 13400 19750 13400
 Wire Wire Line
-	10250 6950 10150 6950
+	19850 11900 19750 11900
 Wire Wire Line
-	8450 6950 9850 6950
+	18050 11900 19450 11900
 Wire Wire Line
-	9650 8650 9650 8750
+	19250 13600 19250 13700
 Wire Wire Line
-	9650 8750 11300 8750
+	19250 13700 20900 13700
 Wire Wire Line
-	9650 7150 9650 7250
+	19250 12100 19250 12200
 Wire Wire Line
-	9650 7250 11300 7250
+	19250 12200 20900 12200
 Wire Notes Line
-	9750 8150 10600 8150
+	19350 13100 20200 13100
 Wire Notes Line
-	10600 8150 10600 8550
+	20200 13100 20200 13500
 Wire Notes Line
-	10600 8550 9750 8550
+	20200 13500 19350 13500
 Wire Notes Line
-	9750 8550 9750 8150
+	19350 13500 19350 13100
 Wire Notes Line
-	12050 9050 11250 9050
+	21650 14000 20850 14000
 Wire Notes Line
-	11250 9050 11250 8650
+	20850 14000 20850 13600
 Wire Notes Line
-	11250 8650 12050 8650
+	20850 13600 21650 13600
 Wire Notes Line
-	12050 8650 12050 9050
+	21650 13600 21650 14000
 Wire Notes Line
-	9750 6650 10600 6650
+	19350 11600 20200 11600
 Wire Notes Line
-	10600 6650 10600 7050
+	20200 11600 20200 12000
 Wire Notes Line
-	10600 7050 9750 7050
+	20200 12000 19350 12000
 Wire Notes Line
-	9750 7050 9750 6650
+	19350 12000 19350 11600
 Wire Notes Line
-	12050 7550 12050 7150
+	21650 12500 21650 12100
 Wire Notes Line
-	12050 7150 11200 7150
+	21650 12100 20800 12100
 Wire Notes Line
-	11200 7150 11200 7550
+	20800 12100 20800 12500
 Wire Notes Line
-	11200 7550 12050 7550
+	20800 12500 21650 12500
 Wire Wire Line
-	8550 6850 8550 7150
-Connection ~ 8550 7150
-Text Notes 9800 6750 0    60   ~ 0
+	18150 11800 18150 12100
+Connection ~ 18150 12100
+Text Notes 19400 11700 0    60   ~ 0
 V1
-Text Notes 11250 7500 0    60   ~ 0
+Text Notes 20850 12450 0    60   ~ 0
 V2
-Text Notes 9800 8250 0    60   ~ 0
+Text Notes 19400 13200 0    60   ~ 0
 V3
-Text Notes 11300 9000 0    60   ~ 0
+Text Notes 20900 13950 0    60   ~ 0
 V4
 Wire Wire Line
-	10400 9150 10400 9250
-Text Label 5100 8250 2    60   ~ 0
+	20000 14100 20000 14200
+Text Label 6600 3950 2    60   ~ 0
 X3
-Text Label 5100 6350 2    60   ~ 0
+Text Label 6600 2050 2    60   ~ 0
 X3
 Wire Wire Line
-	2150 9650 3150 9650
+	3650 5350 4650 5350
 Wire Wire Line
-	2150 7750 3150 7750
-Text Label 3150 9650 2    60   ~ 0
+	3650 3450 4650 3450
+Text Label 4650 5350 2    60   ~ 0
 FAZE3
-Text Label 3150 7750 2    60   ~ 0
+Text Label 4650 3450 2    60   ~ 0
 FAZE1
-Text Label 5100 9650 2    60   ~ 0
+Text Label 6600 5350 2    60   ~ 0
 X1
-Text Label 5100 7750 2    60   ~ 0
+Text Label 6600 3450 2    60   ~ 0
 X1
-Text Notes 2150 6800 0    79   ~ 0
+Text Notes 3650 2500 0    79   ~ 0
 EKR
 Wire Wire Line
 	5750 13500 5750 13400
