@@ -339,11 +339,6 @@ F 0 "U2" H 2450 3017 50  0001 C CNN
 F 1 "MOC3060S" H 2450 2926 50  0000 C CNN
 F 2 "" H 3300 2750 50  0001 L CIN
 F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 3300 2650 50  0001 L CNN
-F 4 "-" H 2450 2300 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 3650 2850 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 4100 2550 60  0001 C CNN "Kaina"
-F 7 "SMD" H 3750 2550 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 2450 2924 47  0001 C CNN "Gamintojo kodas"
 	1    2450 2700
 	1    0    0    -1  
 $EndComp
@@ -355,18 +350,6 @@ F 0 "R10" H 3150 3250 60  0001 C CNN
 F 1 "330R" H 3250 3250 60  0000 C CNN
 F 2 "" H 4450 3200 60  0001 C CNN
 F 3 "" H 1650 3650 60  0001 C CNN
-F 4 "-" H 3250 3050 60  0001 C CNN "ventcode"
-F 5 "470R" H 4200 3300 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 4400 3000 60  0001 C CNN "Kaina"
-F 7 "1206" H 4450 3100 60  0001 C CNN "Korpusas"
-F 8 "1" H 4150 3000 60  0001 C CNN "Aukstis"
-F 9 "-" H 4100 2900 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 4300 3400 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4200 2900 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4300 2900 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4150 3100 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4400 2900 60  0001 C CNN "Parametras"
-F 15 "-" H 4500 2900 60  0001 C CNN "Komentaras"
 	1    3250 3150
 	1    0    0    -1  
 $EndComp
@@ -378,18 +361,6 @@ F 0 "EKR_X7" H 3350 1950 50  0000 C CNN
 F 1 "Faston_6.3x08x14" H 4600 2000 50  0001 C CNN
 F 2 "" H 4250 1950 50  0001 C CNN
 F 3 "" H 5000 1550 50  0001 C CNN
-F 4 "ZAJ023" H 3350 1850 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 1850 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 1850 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 1850 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 1850 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 1850 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 2000 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 1850 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 1850 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 1850 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 1850 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 1850 60  0001 C CNN "Komentaras"
 	1    3600 1950
 	-1   0    0    1   
 $EndComp
@@ -401,18 +372,6 @@ F 0 "EKR_X9" H 3350 2600 50  0000 C CNN
 F 1 "Faston_6.3x08x14" H 4600 2650 50  0001 C CNN
 F 2 "" H 4250 2600 50  0001 C CNN
 F 3 "" H 5000 2200 50  0001 C CNN
-F 4 "ZAJ023" H 3350 2500 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 2500 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 2500 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 2500 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 2500 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 2500 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 2650 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 2500 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 2500 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 2500 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 2500 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 2500 60  0001 C CNN "Komentaras"
 	1    3600 2600
 	-1   0    0    1   
 $EndComp
@@ -426,18 +385,6 @@ F 0 "EKR_X12" H 3350 3150 50  0000 C CNN
 F 1 "Faston_6.3x08x14" H 4600 3200 50  0001 C CNN
 F 2 "" H 4250 3150 50  0001 C CNN
 F 3 "" H 5000 2750 50  0001 C CNN
-F 4 "ZAJ023" H 3350 3050 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 3050 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 3050 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 3050 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 3050 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 3050 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 3200 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 3050 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 3050 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 3050 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 3050 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 3050 60  0001 C CNN "Komentaras"
 	1    3600 3150
 	-1   0    0    1   
 $EndComp
@@ -451,11 +398,6 @@ F 0 "U1" H 2450 4817 50  0001 C CNN
 F 1 "MOC3060S" H 2450 4726 50  0000 C CNN
 F 2 "" H 3300 4550 50  0001 L CIN
 F 3 "http://datasheet.octopart.com/MOC3063SR2M-Fairchild-Semiconductor-datasheet-10497244.pdf" H 3300 4450 50  0001 L CNN
-F 4 "-" H 2450 4100 60  0001 C CNN "ventcode"
-F 5 "Optosimistorius" H 3650 4650 60  0001 C CNN "Pavadinimas"
-F 6 "0" H 4100 4350 60  0001 C CNN "Kaina"
-F 7 "SMD" H 3750 4350 60  0001 C CNN "Korpuso tipas"
-F 8 "MOC3060S" H 2450 4724 47  0001 C CNN "Gamintojo kodas"
 	1    2450 4500
 	1    0    0    -1  
 $EndComp
@@ -467,18 +409,6 @@ F 0 "R5" H 3150 4500 60  0001 C CNN
 F 1 "330R" H 3250 4500 60  0000 C CNN
 F 2 "" H 4450 4450 60  0001 C CNN
 F 3 "" H 1650 4900 60  0001 C CNN
-F 4 "-" H 3250 4300 60  0001 C CNN "ventcode"
-F 5 "470R" H 4200 4550 59  0001 C CNN "Nominalas"
-F 6 "0.001" H 4400 4250 60  0001 C CNN "Kaina"
-F 7 "1206" H 4450 4350 60  0001 C CNN "Korpusas"
-F 8 "1" H 4150 4250 60  0001 C CNN "Aukstis"
-F 9 "-" H 4100 4150 60  0001 C CNN "Marke"
-F 10 "Rezistorius" H 4300 4650 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4200 4150 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4300 4150 60  0001 C CNN "Nuoroda"
-F 13 "SMD" H 4150 4350 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4400 4150 60  0001 C CNN "Parametras"
-F 15 "-" H 4500 4150 60  0001 C CNN "Komentaras"
 	1    3250 4400
 	1    0    0    -1  
 $EndComp
@@ -492,18 +422,6 @@ F 0 "EKR_X17" H 3350 4050 50  0000 C CNN
 F 1 "X17" H 3350 4050 50  0001 C CNN
 F 2 "" H 4250 4050 50  0001 C CNN
 F 3 "" H 5000 3650 50  0001 C CNN
-F 4 "ZAJ023" H 3350 3950 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 3950 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 3950 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 3950 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 3950 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 3950 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 4100 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 3950 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 3950 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 3950 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 3950 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 3950 60  0001 C CNN "Komentaras"
 	1    3600 4050
 	-1   0    0    1   
 $EndComp
@@ -515,18 +433,6 @@ F 0 "EKR_X14" H 3350 5000 50  0000 C CNN
 F 1 "X14" H 4600 5050 50  0001 C CNN
 F 2 "" H 4250 5000 50  0001 C CNN
 F 3 "" H 5000 4600 50  0001 C CNN
-F 4 "ZAJ023" H 3350 4900 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 4900 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 4900 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 4900 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 4900 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 4900 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 5050 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 4900 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 4900 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 4900 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 4900 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 4900 60  0001 C CNN "Komentaras"
 	1    3600 5000
 	-1   0    0    1   
 $EndComp
@@ -540,18 +446,6 @@ F 0 "EKR_X26" H 3350 4600 50  0000 C CNN
 F 1 "X26" H 3350 4600 50  0001 C CNN
 F 2 "" H 4250 4600 50  0001 C CNN
 F 3 "" H 5000 4200 50  0001 C CNN
-F 4 "ZAJ023" H 3350 4500 60  0001 C CNN "ventcode"
-F 5 "-" H 3850 4500 60  0001 C CNN "Nominalas"
-F 6 "0" H 4750 4500 60  0001 C CNN "Kaina"
-F 7 "-" H 3950 4500 60  0001 C CNN "Korpusas"
-F 8 "10" H 4600 4500 60  0001 C CNN "Aukstis"
-F 9 "-" H 4050 4500 60  0001 C CNN "Marke"
-F 10 "Kontaktas" H 4000 4650 60  0001 C CNN "Pavadinimas"
-F 11 "-" H 4150 4500 60  0001 C CNN "Gamintojo Kodas"
-F 12 "-" H 4250 4500 60  0001 C CNN "Nuoroda"
-F 13 "DIP" H 4900 4500 60  0001 C CNN "Korpuso tipas"
-F 14 "-" H 4350 4500 60  0001 C CNN "Parametras"
-F 15 "-" H 4450 4500 60  0001 C CNN "Komentaras"
 	1    3600 4600
 	-1   0    0    1   
 $EndComp
